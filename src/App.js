@@ -21,6 +21,8 @@ function App() {
  <JoinAdress/>
  <hr />
  <JoinMoney/>
+ <hr />
+ <mypage/>
 
  </div>
  );
