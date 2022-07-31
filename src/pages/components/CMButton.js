@@ -1,8 +1,8 @@
 import React from 'react';
 import styled from 'styled-components';
 const StyledButton = styled.button`
- height: 40px;
- width: 300px;
+ height: 50px;
+ width: 200px;
  border-radius: 10px;
  border: 2px solid black;
  background-color: #FFEF82;
