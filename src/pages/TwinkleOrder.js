@@ -1,34 +1,31 @@
 import React from 'react';
 import CMButton from './components/CMButton';
-import CMInput from './components/CMInput';
 
 
-function AdressManage() {
+function TwinkleOrder() {
  return (
 
 <div>
 <center>
     <h1>
-        주소 리스트
+        반짝주문
         </h1>
         
     <label>
-        서울특별시 중구 필동로 1길30</label>
+        봉추찜닭 서울대입구역점</label>
         &nbsp; &nbsp; &nbsp;
         <button>삭제</button>
         <br/>
 
     <label>
-        경기도 고양시 일산동 동국로32</label>
+        엽기떡볶이 동대문점</label>
         &nbsp; &nbsp; &nbsp;
         <button>삭제</button>
         <br/>
         <br/>
-        <br/>
-        <CMInput hint="주소" /><button>삭제</button>
 
 </center>
  </div>
  );
 }
-export default AdressManage;
+export default TwinkleOrder;

@@ -10,7 +10,7 @@ function CategoryPage() {
 <center>
  <SearchInput/>
 
- <CMButton text={'검색'} />
+ <button>검색</button>
  <br/>
  <br/>
 

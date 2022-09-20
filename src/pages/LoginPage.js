@@ -2,7 +2,9 @@ import React from 'react';
 import CMButton from './components/CMButton';
 import CMInput from './components/CMInput';
 import HeadButton from './components/HeadButton'
+import {useNavigate} from "react-router-dom";
 function LoginPage() {
+    const navigate=useNavigate();
  return (
  <div>
     <center>
@@ -16,7 +18,18 @@ function LoginPage() {
  <br />
  <br />
  <br />
- <CMButton text={'로그인'} />
+ <button onClick={()=>{
+    navigate('/MainPage')
+ }}>로그인</button>
+ <br />
+ <br />
+
+ <button onClick={()=>{
+    navigate('/JoinPage')
+ }}>회원가입하기</button>
+
+
+
  </center>
  </div>
  );

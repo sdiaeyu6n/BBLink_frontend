@@ -12,13 +12,13 @@ function MainPage() {
     <br/>
  <SearchInput/>
 
- <CMButton text={'검색'} />
+ <button>검색</button>
  <br/>
  <br/>
- <HeadButton text={'배달'}/>
+ <button>배달</button>
  <br/>
  <br/>
- <HeadButton text={'포장'}/>
+ <button>포장</button>
  <br/>
  <br/>
  <HeadButton text={'현재 배달 현황1'}/>
