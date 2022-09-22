@@ -1,6 +1,5 @@
 import React from 'react';
-import CMButton from './components/CMButton';
-import SearchInput from './components/SearchInput';
+import SearchInput from '../components/SearchInput';
 
 
 function CategoryPage() {

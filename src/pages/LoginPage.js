@@ -1,7 +1,6 @@
 import React from 'react';
-import CMButton from './components/CMButton';
-import CMInput from './components/CMInput';
-import HeadButton from './components/HeadButton'
+import CMInput from '../components/CMInput';
+import HeadButton from '../components/HeadButton'
 import {useNavigate} from "react-router-dom";
 function LoginPage() {
     const navigate=useNavigate();

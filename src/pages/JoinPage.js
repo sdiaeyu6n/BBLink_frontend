@@ -1,6 +1,5 @@
 import React from 'react';
-import CMInput from './components/CMInput';
-import CMButton from './components/CMButton';
+import CMInput from '../components/CMInput';
 import {useNavigate} from "react-router-dom";
 
 function JoinPage() {

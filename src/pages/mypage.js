@@ -1,6 +1,5 @@
 import React from 'react';
-import CMButton from './components/CMButton';
-import HeadButton from './components/HeadButton';
+import HeadButton from '../components/HeadButton';
 import {useNavigate} from "react-router-dom";
 
 
@@ -30,6 +29,12 @@ navigate('/PersonalInfo')
 navigate('/AdressManage')
 }
 }>주소 관리</button>
+ <br/>
+ <br/>
+ <button onClick={()=>{
+navigate('/ReviewManage')
+}
+}>리뷰 관리</button>
  <br/>
  <br/>
  <button onClick={()=>{

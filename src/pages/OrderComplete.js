@@ -1,9 +1,9 @@
 import React from 'react';
-import CMButton from './components/CMButton';
-
+import { useNavigate } from 'react-router';
 
 
 function OrderComplete() {
+    const navigate=useNavigate();
  return (
 
 <div>
@@ -17,7 +17,10 @@ function OrderComplete() {
         잠시만 기다려주세요!</label>
         <br/>
         <br/>
-        <button>배달현황 보기</button>
+        <button  onClick={()=>{
+navigate('/DeliveryNow')
+}
+}>배달현황 보기</button>
         <br/>
         <br/>
         <br/>

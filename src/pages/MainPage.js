@@ -1,24 +1,58 @@
 import React from 'react';
-import CMButton from './components/CMButton';
-import SearchInput from './components/SearchInput';
-import HeadButton from './components/HeadButton';
+import SearchInput from '../components/SearchInput';
+import HeadButton from '../components/HeadButton';
+import {useNavigate} from 'react-router-dom';
+import styled from 'styled-components'; 
+const MainPage=()=> {
+    const navigate=useNavigate();
 
-function MainPage() {
+    const StyledButton = styled.button`
+    height: 60px;
+    width: 300px;
+    background-color: #ffef82;
+    border-color:#ffef82;
+    font-size: 25px;
+    font-weight: 700;
+    border-radius:50px;
+  `;
+
+  const StyledButton2 = styled.button`
+  height: 50px;
+  width: 80px;
+  background-color: #ffef82;
+  font-size: 20px;
+  font-weight: 700;
+`;
+
  return (
 
-<div>
+<div className="MainPage">
 <center>
-    <label>현재 선택된 주소</label>
+    <br/>
+    <label>서울특별시 중구 필동로</label>
+    <br/>
     <br/>
  <SearchInput/>
+ &nbsp;&nbsp;
+ <StyledButton2 onClick={()=>{
+navigate('/SelectPage')
+}
+}>검색</StyledButton2>
 
- <button>검색</button>
  <br/>
  <br/>
- <button>배달</button>
+ <StyledButton onClick={()=>{
+navigate('/CategoryPage')
+}
+}>배달</StyledButton>
+
  <br/>
  <br/>
- <button>포장</button>
+ <StyledButton onClick={()=>{
+navigate('/CategoryPage')
+}
+}>포장</StyledButton>
+
  <br/>
  <br/>
  <HeadButton text={'현재 배달 현황1'}/>

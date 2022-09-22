@@ -1,6 +1,6 @@
-import Dd_categor from "./components/Dd_categor";
-import Dd_storemain from "./components/Dd_storemain";
-import StoreMain from "./components/StoreMain";
+import Dd_categor from "../components/Dd_categor";
+import Dd_storemain from "../components/Dd_storemain";
+import StoreMain from "../components/StoreMain";
 
 const StoreList = () => {
   return (

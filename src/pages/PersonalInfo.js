@@ -1,5 +1,5 @@
 import React from 'react';
-import CMInput from './components/CMInput';
+import CMInput from '../components/CMInput';
 
 
 function PersonalInfo() {

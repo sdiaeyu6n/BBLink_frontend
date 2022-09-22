@@ -1,8 +1,6 @@
 import React from 'react';
-import CMButton from './components/CMButton';
-import CMInput from './components/CMInput';
-import HeadButton from './components/HeadButton'
-import ToggleSwitch from './components/ToggleSwitch';
+import CMButton from '../components/CMButton';
+import ToggleSwitch from '../components/ToggleSwitch';
 
 function Settings() {
  return (

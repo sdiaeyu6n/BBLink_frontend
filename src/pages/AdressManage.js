@@ -1,6 +1,5 @@
 import React from 'react';
-import CMButton from './components/CMButton';
-import CMInput from './components/CMInput';
+import CMInput from '../components/CMInput';
 
 
 function AdressManage() {
