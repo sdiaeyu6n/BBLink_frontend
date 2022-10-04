@@ -1,29 +1,52 @@
 import React from 'react';
-import CMButton from './components/CMButton';
-import CMInput from './components/CMInput';
-import HeadButton from './components/HeadButton'
+import HeadButton from '../components/HeadButton';
+import {useNavigate} from "react-router-dom";
+
 
 function MyPage() {
- return (
+
+    const navigate=useNavigate();
+
+    return (
+
+    
  <div>
-<HeadButton text={'닉네임'}/>
-<CMButton text={'로그아웃'}/>
+
     <center>
     
- <h1>닉네임 </h1> 
- <CMButton text={'개인정보 관리'} />
+ <h1>마이페이지 </h1> 
+ <HeadButton text={'닉네임'}/>
+<button>로그아웃</button>
+<br/>
+<br/>
+<button onClick={()=>{
+navigate('/PersonalInfo')
+}
+}>개인정보 관리</button>
  <br/>
  <br/>
- <CMButton text={'주소 관리'} />
+ <button onClick={()=>{
+navigate('/AdressManage')
+}
+}>주소 관리</button>
  <br/>
  <br/>
- <CMButton text={'리뷰 관리'} />
+ <button onClick={()=>{
+navigate('/ReviewManage')
+}
+}>리뷰 관리</button>
  <br/>
  <br/>
- <CMButton text={'설정'} />
+ <button onClick={()=>{
+navigate('/Settings')
+}
+}>설정</button>
  <br/>
  <br/>
- <CMButton text={'공지 사항'} />
+ <button onClick={()=>{
+navigate('/Notice')
+}
+}>공지사항</button>
  <br/>
  <br/>
  <br/>

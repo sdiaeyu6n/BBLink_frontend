@@ -1,7 +1,9 @@
 import React from 'react';
-import CMInput from './components/CMInput';
-import CMButton from './components/CMButton';
+import CMInput from '../components/CMInput';
+import {useNavigate} from "react-router-dom";
+
 function JoinAdress() {
+   const navigate=useNavigate();
  return (
  <div>
     <center>
@@ -9,7 +11,9 @@ function JoinAdress() {
  <CMInput hint="배달 주소" />
  <br />
  <br />
- <CMButton text="다음" />
+ <button onClick={()=>{
+    navigate('/JoinMoney')
+ }}>다음</button>
  </center>
  </div>
  );

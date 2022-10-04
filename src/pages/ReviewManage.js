@@ -1,6 +1,4 @@
 import React from 'react';
-import CMButton from './components/CMButton';
-import SearchInput from './components/SearchInput';
 
 
 function ReviewManage() {
@@ -17,7 +15,7 @@ function ReviewManage() {
         별점 5.0
         너무 맛있어요~</label>
         &nbsp; &nbsp; &nbsp;
-        <CMButton text={'삭제'}/>
+        <button>삭제</button>
         <br/>
 
     <label>
@@ -25,11 +23,11 @@ function ReviewManage() {
         별점 4.8
         양이 엄청 많아요!</label>
         &nbsp; &nbsp; &nbsp;
-        <CMButton text={'삭제'} />
+        <button>삭제</button>
         <br/>
         <br/>
         <br/>
- <CMButton text={'리뷰 쓰기'} />
+        <button>리뷰 작성</button>
         <br/>
         <br/>
 </center>

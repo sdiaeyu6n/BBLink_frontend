@@ -1,6 +1,5 @@
 import React from 'react';
-import CMButton from './components/CMButton';
-import CMInput from './components/CMInput';
+import CMInput from '../components/CMInput';
 
 
 function AdressManage() {
@@ -15,17 +14,17 @@ function AdressManage() {
     <label>
         서울특별시 중구 필동로 1길30</label>
         &nbsp; &nbsp; &nbsp;
-        <CMButton text={'삭제'}/>
+        <button>삭제</button>
         <br/>
 
     <label>
         경기도 고양시 일산동 동국로32</label>
         &nbsp; &nbsp; &nbsp;
-        <CMButton text={'삭제'} />
+        <button>삭제</button>
         <br/>
         <br/>
         <br/>
-        <CMInput hint="주소" /><CMButton text={'추가'} />
+        <CMInput hint="주소" /><button>삭제</button>
 
 </center>
  </div>

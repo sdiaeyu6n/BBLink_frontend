@@ -1,7 +1,9 @@
 import React from 'react';
-import CMInput from './components/CMInput';
-import CMButton from './components/CMButton';
+import CMInput from '../components/CMInput';
+import {useNavigate} from "react-router-dom";
+
 function JoinPage() {
+   const navigate=useNavigate();
  return (
  <div>
     <center>
@@ -19,7 +21,9 @@ function JoinPage() {
 
  <br />
  <br />
- <CMButton text="다음" />
+ <button onClick={()=>{
+    navigate('/JoinAdress')
+ }}>다음</button>
  </center>
  </div>
  );

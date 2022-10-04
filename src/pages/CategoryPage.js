@@ -1,6 +1,5 @@
 import React from 'react';
-import CMButton from './components/CMButton';
-import SearchInput from './components/SearchInput';
+import SearchInput from '../components/SearchInput';
 
 
 function CategoryPage() {
@@ -10,7 +9,7 @@ function CategoryPage() {
 <center>
  <SearchInput/>
 
- <CMButton text={'검색'} />
+ <button>검색</button>
  <br/>
  <br/>
 
