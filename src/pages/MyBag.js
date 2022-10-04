@@ -28,6 +28,7 @@ const MyBag = () => {
           <b style={{ fontSize: 30 }}>장바구니</b>
         </h2>
       </div>
+      <hr></hr>
       <div>
         <h3>가게 명</h3>
       </div>

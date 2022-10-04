@@ -1,5 +1,6 @@
 import { useNavigate } from "react-router-dom";
 import { useState } from "react";
+import Button from "react-bootstrap/Button";
 
 const Payment = () => {
   const navigate = useNavigate();
@@ -22,35 +23,74 @@ const Payment = () => {
   //     alert("결제 성공");
   //   };
   return (
-    <div className="Payment">
-      <h3>결제하기</h3>
+    <div
+      className="Payment"
+      style={{
+        marginTop: 20,
+        marginLeft: 30,
+        marginBottom: 20,
+        alignContent: "center",
+        whiteSpace: "pre-wrap",
+      }}
+    >
+      <h2>
+        <Button
+          variant="warning"
+          onClick={() => {
+            navigate("/mybag");
+          }}
+          style={{ width: 100, fontSize: 15 }}
+        >
+          <b>뒤로가기</b>
+        </Button>{" "}
+        <b style={{ fontSize: 30 }}>결제하기</b>
+      </h2>
       <hr></hr>
-      <h3>배달 정보</h3>
-
+      <b style={{ fontSize: 25 }}>배달 정보</b>
+      <p></p>
       <div>
-        <label for="address">배달 주소 </label>
+        <label for="address" style={{ fontSize: 20, margin: 5 }}>
+          배달 주소{" "}
+        </label>
         <input
           name="address"
           value={state.address}
           onChange={handleChangeState}
+          style={{ width: 300 }}
         />
       </div>
       <div>
-        <label for="address">연락처 </label>
+        <label for="contact" style={{ fontSize: 20, margin: 5 }}>
+          {"    "}연락처{" "}
+        </label>
         <input
           name="contact"
           value={state.contact}
           onChange={handleChangeState}
+          style={{ width: 300 }}
         />
       </div>
       <hr></hr>
       <div>
-        <h3>요청사항</h3>
-        <textarea name="ask" value={state.ask} onChange={handleChangeState} />
+        <b style={{ fontSize: 25 }}>요청사항</b>
+        <p></p>
+        <textarea
+          name="ask"
+          value={state.ask}
+          onChange={handleChangeState}
+          style={{ width: 500, height: 100 }}
+        />
       </div>
+      <hr></hr>
       <div>
-        <label for="method">결제수단 선택 </label>
-        <select name="method" value={state.method} onChange={handleChangeState}>
+        <b style={{ fontSize: 25 }}>결제수단 선택 </b>
+        <p></p>
+        <select
+          name="method"
+          value={state.method}
+          onChange={handleChangeState}
+          style={{ width: 200, height: 40, fontSize: 20 }}
+        >
           <option value={1}>카드 결제</option>
           <option value={2}>만나서 현금 결제</option>
           <option value={3}>계좌이체</option>
@@ -58,14 +98,17 @@ const Payment = () => {
           <option value={5}>기프티콘 결제</option>
         </select>
       </div>
+      <hr></hr>
       <div>
-        <button
+        <Button
+          variant="warning"
           onClick={() => {
             navigate("/payfin");
           }}
+          style={{ width: 300, fontSize: 25 }}
         >
-          00,000원 결제하기
-        </button>
+          <b>00,000원 결제하기</b>
+        </Button>
       </div>
     </div>
   );
