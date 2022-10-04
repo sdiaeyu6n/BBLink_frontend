@@ -1,36 +1,24 @@
 import React from "react";
-import "./Dropdown.css";
-import Dropdown from "./Dropdown";
-import styled from "styled-components";
+import Nav from "react-bootstrap/Nav";
+import NavDropdown from "react-bootstrap/NavDropdown";
 
-const DropDown2 = (props) => {
-  const [dropdownVisibility, setDropdownVisibility] = React.useState(false);
-  const StyledButton = styled.button`
-    height: 100px;
-    width: 305px;
-    border: 2px solid black;
-    background-color: #ffef82;
-    font-size: 25px;
-    font-weight: 700;
-  `;
+function DropDown2() {
+  // const handleSelect = (eventKey) => alert(`selected ${eventKey}`);
 
   return (
-    <div id="Dropdown2">
-      <StyledButton onClick={(e) => setDropdownVisibility(!dropdownVisibility)}>
-        {dropdownVisibility ? "메뉴 목록 닫기" : "메뉴 목록 열기"}
-      </StyledButton>
-      <Dropdown visibility={dropdownVisibility}>
-        <ul>
-          <li>주문했던 메뉴</li>
-          <li>대표 메뉴</li>
-          <li>세트 메뉴</li>
-          <li>단품 메뉴</li>
-          <li>사이드</li>
-          <li>음료</li>
-        </ul>
-      </Dropdown>
-    </div>
+    // <Nav variant="pills" activeKey="1" onSelect={handleSelect}>
+    // <Dropdown.Item href="#/action-1">프랜차이즈</Dropdown.Item> - 페이지 연결
+    <Nav variant="pills" activeKey="1">
+      <NavDropdown title="메뉴 목록 열기" id="nav-dropdown">
+        <NavDropdown.Item eventKey="6.1">주문했던 메뉴</NavDropdown.Item>
+        <NavDropdown.Item eventKey="6.2">대표 메뉴</NavDropdown.Item>
+        <NavDropdown.Item eventKey="6.3">세트 메뉴</NavDropdown.Item>
+        <NavDropdown.Item eventKey="6.4">단품 메뉴</NavDropdown.Item>
+        <NavDropdown.Item eventKey="6.5">사이드</NavDropdown.Item>
+        <NavDropdown.Item eventKey="6.6">음료</NavDropdown.Item>
+      </NavDropdown>
+    </Nav>
   );
-};
+}
 
 export default DropDown2;
