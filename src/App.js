@@ -1,6 +1,8 @@
+//글로벌스타일
+import { GlobalStyle } from "./styles/GlobalStyles";
+
 import LoginPage from "./pages/LoginPage";
 import JoinPage from "./pages/JoinPage";
-import { BrowserView, MobileView } from "react-device-detect";
 import JoinAdress from "./pages/JoinAdress";
 import JoinMoney from "./pages/JoinMoney";
 import MyPage from "./pages/MyPage";
@@ -12,17 +14,12 @@ import Settings from "./pages/Settings";
 import Notice from "./pages/Notice";
 import PersonalInfo from "./pages/PersonalInfo";
 import MainPage from "./pages/MainPage";
-import ToggleSwitch from "./components/ToggleSwitch";
 import React from "react";
-import { useState } from "react";
 import OrderComplete from "./pages/OrderComplete";
 import DeliveryNow from "./pages/DeliveryNow";
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-import RouteTest from "./components/RouteTest";
-import Users from "./Users";
-import BottomNav from "./components/BottomNav";
 import TwinkleOrder from "./pages/TwinkleOrder";
 import StoreList from "./pages/StoreList";
 import Store from "./pages/Store";
@@ -37,6 +34,7 @@ import StoreReview from "./pages/StoreReview";
 function App() {
   return (
     <BrowserRouter>
+      <GlobalStyle />
       <div>
         <Routes>
           <Route path="/MainPage" element={<MainPage />} />
