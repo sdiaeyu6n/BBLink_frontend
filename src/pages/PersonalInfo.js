@@ -1,52 +1,76 @@
 import React from 'react';
 import CMInput from '../components/CMInput';
+import styled from 'styled-components';
+import HeadButton from '../components/HeadButton';
+
+const StyledButton = styled.button`
+height: 60px;
+width: 250px;
+background-color: #ffef82;
+border-color:#ffef82;
+font-size: 15px;
+font-weight: 700;
+border-radius:50px;
+`;
 
 
+const StyledButton2 = styled.button`
+height: 50px;
+width: 80px;
+background-color: #ffef82;
+border-color:#ffef82;
+font-size: 20px;
+font-weight: 700;
+`;
 function PersonalInfo() {
  return (
 
 <div>
 <center>
-    <h1>
-        개인정보 관리
-        </h1>
-        
-        <label>
-        사용자 모드: 저시력자 모드</label>
+<br/>     
+<HeadButton text={'개인정보 관리'}/>
+    <br/>      
+    <br/>     
+    
+    <StyledButton>사용자모드: 저시력자</StyledButton>
+
         &nbsp; &nbsp; &nbsp;
-        <button>변경</button>
+        <StyledButton2>변경</StyledButton2>
+        <br/>
         <br/>
 
-    <label>
-        닉네임:보통이</label>
+        <StyledButton>닉네임 관리
+        </StyledButton>
         &nbsp; &nbsp; &nbsp;
-        <button>변경</button>
+        <StyledButton2>변경</StyledButton2>
+        <br/>
         <br/>
 
-        <label>
-        비밀번호 </label>
+        <StyledButton>비밀번호 변경
+        </StyledButton>
         &nbsp; &nbsp; &nbsp;
-        <button>변경</button>
+        <StyledButton2>변경</StyledButton2>
+        <br/>
         <br/>
 
-    <label>
-        알러지 정보: 새우 알레르기</label>
+        <StyledButton>알러지 정보 관리
+        </StyledButton>
         &nbsp; &nbsp; &nbsp;
-        <button>변경</button>
+        <StyledButton2>변경</StyledButton2>
+        <br/>
         <br/>
     
-    <label>
-        결제 정보: 00카드 192487283740938</label>
+        <StyledButton>결제 정보 관리
+        </StyledButton>
         &nbsp; &nbsp; &nbsp;
-        <button>변경</button>
+        <StyledButton2>변경</StyledButton2>
         <br/>
         <br/>
-        <br/>
-        <label>
+        {/* <label>
             팝업창으로 만들고임
         </label>
         <br/>
-        <CMInput hint="변경할 내용" /><button>변경</button>
+        <CMInput hint="변경할 내용" /><button>변경</button> */}
 
 </center>
  </div>

@@ -1,27 +1,61 @@
 import React from 'react';
 import SearchInput from '../components/SearchInput';
-
-
+import styled from 'styled-components';
+import { useNavigate } from 'react-router';
 function CategoryPage() {
+
+    const navigate=useNavigate();
+    const StyledButton2 = styled.button`
+    height: 75px;
+    width: 105px;
+    background-color: #ffef82;
+    border-color:#ffef82;
+    font-size: 15px;
+    font-weight: 600;
+  `;
+
+  const StyledButton3 = styled.button`
+  height: 50px;
+  width: 80px;
+  background-color: #ffef82;
+  border-color:#ffef82;
+  font-size: 20px;
+  font-weight: 700;
+`;
+  
  return (
 
 <div>
 <center>
+<br/>
+ <br/>
  <SearchInput/>
 
- <button>검색</button>
+ &nbsp;&nbsp;
+ <StyledButton3 onClick={()=>{
+navigate('/SelectPage')
+}
+}>검색</StyledButton3>
  <br/>
  <br/>
 
- 포장 &nbsp;&nbsp;&nbsp;한식 &nbsp;&nbsp;&nbsp;치킨
-<br/>
-분식  &nbsp;&nbsp;&nbsp;돈까스  &nbsp;&nbsp;&nbsp;족발/보쌈
-<br/>
-찜/탕 &nbsp;&nbsp;&nbsp; 구이 &nbsp;&nbsp;&nbsp; 피자
-<br/>
-중식 &nbsp;&nbsp;&nbsp; 일식 &nbsp; &nbsp;&nbsp;회/해물
-<br/>
-양식 &nbsp;&nbsp;&nbsp; 커피/차 &nbsp;&nbsp;&nbsp; 디저트
+ <StyledButton2>포장</StyledButton2>   <StyledButton2>한식</StyledButton2>  <StyledButton2>치킨</StyledButton2>
+ <br/>
+ <br/>
+ <StyledButton2>분식</StyledButton2>   <StyledButton2>돈까스</StyledButton2>  <StyledButton2>족발/보쌈</StyledButton2>
+ <br/>
+ <br/>
+ <StyledButton2>찜/탕</StyledButton2>   <StyledButton2>구이</StyledButton2>  <StyledButton2>피자</StyledButton2>
+ <br/>
+ <br/>
+ <StyledButton2>중식</StyledButton2>   <StyledButton2>일식</StyledButton2>  <StyledButton2>회/해물</StyledButton2>
+ <br/>
+ <br/>
+ <StyledButton2>양식</StyledButton2>   <StyledButton2>커피/차</StyledButton2>  <StyledButton2>디저트</StyledButton2>
+ <br/>
+ <br/>
+
+ 
 </center>
 <br/>
 <br/>

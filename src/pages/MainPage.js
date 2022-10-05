@@ -20,6 +20,7 @@ const MainPage=()=> {
   height: 50px;
   width: 80px;
   background-color: #ffef82;
+  border-color:#ffef82;
   font-size: 20px;
   font-weight: 700;
 `;
