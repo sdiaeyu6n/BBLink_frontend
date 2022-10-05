@@ -16,7 +16,7 @@ import MainPage from "./pages/MainPage";
 import React from "react";
 import OrderComplete from "./pages/OrderComplete";
 import DeliveryNow from "./pages/DeliveryNow";
-
+import TwinkleReorder from "./pages/TwinkleReorder";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import TwinkleOrder from "./pages/TwinkleOrder";
@@ -75,6 +75,8 @@ function App() {
             <Route path="/payfin" element={<PayFin />} />
             <Route path="/storeinfo" element={<StoreInfo />} />
             <Route path="/storereview" element={<StoreReview />} />
+            <Route path="/TwinkleOrder" element={<TwinkleOrder/>}/>
+            <Route path="/TwinkleReorder" element={<TwinkleReorder/>}/>
           </Routes>
           <BottomNav />
           {/* <RouteTest/>
