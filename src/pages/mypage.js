@@ -30,7 +30,7 @@ const StyledButton3 = styled.button`
   border-radius: 50px;
 `;
 
-export default function MyPage() {
+function MyPage() {
   const navigate = useNavigate();
 
   return (
@@ -95,3 +95,5 @@ export default function MyPage() {
     </div>
   );
 }
+
+export default MyPage;
