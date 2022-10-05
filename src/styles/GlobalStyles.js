@@ -31,14 +31,11 @@ export const GlobalStyle = createGlobalStyle`
     justify-content: center;
     background-color: #FFF;
     font-weight: 500;
-    margin-top: 72px;
     margin-bottom: 60px;
+    font-family: 'GmarketSansMedium';
+
   }
-  canvas{
-    margin-top: -140px;
-    height: 400px;
-    width: 100%;
-  }
+
   @media only screen and (max-width: 359px) and (min-width:200px) { //375px 너무 작아서 수정했음
     .App {
       width: 375px;

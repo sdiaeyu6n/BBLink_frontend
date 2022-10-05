@@ -1,6 +1,5 @@
 //글로벌스타일
 import { GlobalStyle } from "./styles/GlobalStyles";
-
 import LoginPage from "./pages/LoginPage";
 import JoinPage from "./pages/JoinPage";
 import JoinAdress from "./pages/JoinAdress";
@@ -30,47 +29,58 @@ import Payment from "./pages/Payment";
 import PayFin from "./pages/PayFin";
 import StoreInfo from "./pages/StoreInfo";
 import StoreReview from "./pages/StoreReview";
+import BottomNav from "./components/BottomNav";
 
 function App() {
   return (
-    <BrowserRouter>
+    <>
       <GlobalStyle />
-      <div>
-        <Routes>
-          <Route path="/MainPage" element={<MainPage />} />
-          <Route path="/TwinkleOrder" element={<TwinkleOrder />} />
-          <Route path="/WriteReview" element={<WriteReview />} />
-          <Route path="/MyPage" element={<MyPage />} />
+      <BrowserRouter>
+        <div>
+          <Routes>
+            <Route path="/MainPage" element={<MainPage />} />
+            <Route path="/TwinkleOrder" element={<TwinkleOrder />} />
+            <Route path="/WriteReview" element={<WriteReview />} />
+            <Route path="/MyPage" element={<MyPage />} />
 
-          <Route path="/" element={<LoginPage />} />
-          <Route path="/JoinPage" element={<JoinPage />} />
-          <Route path="/JoinMoney" element={<JoinMoney />} />
-          <Route path="/JoinAdress" element={<JoinAdress />} />
+            <Route path="/" element={<LoginPage />} />
+            <Route path="/JoinPage" element={<JoinPage />} />
+            <Route path="/JoinMoney" element={<JoinMoney />} />
+            <Route path="/JoinAdress" element={<JoinAdress />} />
 
-          <Route path="/PersonalInfo" element={<PersonalInfo />} />
-          <Route path="/AdressManage" element={<AdressManage />} />
-          <Route path="/ReviewManage" element={<ReviewManage />} />
-          <Route path="/Settings" element={<Settings />} />
-          <Route path="/Notice" element={<Notice />} />
-          <Route path="/CategoryPage" element={<CategoryPage />} />
-          <Route path="/OrderComplete" element={<OrderComplete />} />
-          <Route path="/DeliveryNow" element={<DeliveryNow />} />
+            <Route path="/PersonalInfo" element={<PersonalInfo />} />
+            <Route path="/AdressManage" element={<AdressManage />} />
+            <Route path="/ReviewManage" element={<ReviewManage />} />
+            <Route path="/Settings" element={<Settings />} />
+            <Route path="/Notice" element={<Notice />} />
+            <Route path="/CategoryPage" element={<CategoryPage />} />
+            <Route path="/OrderComplete" element={<OrderComplete />} />
+            <Route path="/DeliveryNow" element={<DeliveryNow />} />
 
-          <Route path="/SelectPage" element={<SelectPage />} />
-          <Route path="/storelist" element={<StoreList />} />
-          <Route path="/storelist/:id" element={<Store />} />
-          <Route path="/menuoption" element={<MenuOption />} />
-          <Route path="/mybag" element={<MyBag />} />
-          <Route path="/payment" element={<Payment />} />
-          <Route path="/payfin" element={<PayFin />} />
-          <Route path="/storeinfo" element={<StoreInfo />} />
-          <Route path="/storereview" element={<StoreReview />} />
-        </Routes>
-        {/* <BottomNav/> */}
-        {/* <RouteTest/>
+            <Route path="/PersonalInfo" element={<PersonalInfo />} />
+            <Route path="/AdressManage" element={<AdressManage />} />
+            <Route path="/ReviewManage" element={<ReviewManage />} />
+            <Route path="/Settings" element={<Settings />} />
+            <Route path="/Notice" element={<Notice />} />
+            <Route path="/CategoryPage" element={<CategoryPage />} />
+            <Route path="/OrderComplete" element={<OrderComplete />} />
+            <Route path="/DeliveryNow" element={<DeliveryNow />} />
+
+            <Route path="/SelectPage" element={<SelectPage />} />
+            <Route path="/storelist" element={<StoreList />} />
+            <Route path="/store" element={<Store />} />
+            <Route path="/menuoption" element={<MenuOption />} />
+            <Route path="/mybag" element={<MyBag />} />
+            <Route path="/payment" element={<Payment />} />
+            <Route path="/payfin" element={<PayFin />} />
+            <Route path="/storeinfo" element={<StoreInfo />} />
+            <Route path="/storereview" element={<StoreReview />} />
+          </Routes>
+          <BottomNav />
+          {/* <RouteTest/>
 
   <Users />; */}
-        {/* 
+          {/* 
 <hr></hr>가게 선택 페이지<hr></hr>
         <StoreList />
         <hr></hr>가게 메인 페이지<hr></hr>
@@ -119,8 +129,9 @@ function App() {
 
   <hr/>
   <TwinkleOrder/> */}
-      </div>
-    </BrowserRouter>
+        </div>
+      </BrowserRouter>
+    </>
   );
 }
 

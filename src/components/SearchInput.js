@@ -5,9 +5,9 @@ import styled from 'styled-components';
 // 이름 규칙 : Join + CM + 태그명 + ?
 const StyledInput = styled.input`
  height: 70px;
- width: 300px;
+ width: 250px;
  border-radius: 10px;
- font-size: 20px;
+ font-size: 15px;
  border: 2px solid gray;
  alignItems: 'center'
  justifyContent: 'center',
