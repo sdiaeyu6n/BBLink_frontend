@@ -1,21 +1,34 @@
 import { useNavigate } from "react-router-dom";
+import Button from "react-bootstrap/Button";
 
 const MyBag = () => {
   const navigate = useNavigate();
   return (
-    <div className="MyBag">
+    <div
+      className="MyBag"
+      style={{
+        marginTop: 20,
+        marginLeft: 30,
+        marginBottom: 20,
+        alignContent: "center",
+        whiteSpace: "pre-wrap",
+      }}
+    >
       <div>
         <h2>
-          <button
+          <Button
+            variant="warning"
             onClick={() => {
               navigate("/store");
             }}
+            style={{ width: 100, fontSize: 15 }}
           >
-            뒤로가기
-          </button>{" "}
-          {""}장바구니
+            <b>뒤로가기</b>
+          </Button>{" "}
+          <b style={{ fontSize: 30 }}>장바구니</b>
         </h2>
       </div>
+      <hr></hr>
       <div>
         <h3>가게 명</h3>
       </div>
@@ -23,51 +36,57 @@ const MyBag = () => {
       <div>
         <h3>메뉴 명</h3>
       </div>
-      <div>
+      <div className="StoreInfoImage" style={{ float: "left", margin: 10 }}>
         <img
           className="storeImg"
           src="img/menu1.jpg"
-          width="100"
-          height="100"
+          width="130"
+          height="130"
           alt="삼겹살 음식 이미지"
         />
       </div>
-      <div>
-        <ul>
-          <li>가격: 14,000원</li>
-          <li>고기 200g 추가(3000원)</li>
-          <li>배달 주문</li>
-        </ul>
+      <div className="StoreInfoText" style={{ float: "left", margin: 10 }}>
+        <p style={{ fontSize: 18 }}>
+          가격: 14,000원{"\n"}
+          고기 200g 추가(3000원){"\n"}
+          배달 주문{"\n"}
+        </p>
+
+        <b style={{ fontSize: 20 }}>17,000원</b>
       </div>
-      <div>
-        <h2>17,000원</h2>
-      </div>
-      <hr></hr>
-      <div>
-        <button
+      <div style={{ clear: "both" }}></div>
+
+      <div style={{ margin: 10 }}>
+        <Button
+          variant="warning"
           onClick={() => {
             navigate("/store");
           }}
+          style={{ width: 150, fontSize: 18 }}
         >
-          + 더 담으러 가기
-        </button>
+          <b>더 담으러 가기</b>
+        </Button>
       </div>
       <hr></hr>
       <div>
-        <p>총 주문금액 17,000원</p>
-        <p>배달비 3,000원</p>
-        <p>――――――――――――――――――――</p>
-        <p>결제예정 금액 20,000원</p>
+        <p style={{ fontSize: 18 }}>
+          총 주문금액 17,000원{"\n"}
+          배달비 3,000원{"\n"}
+          ――――――――――――――――――――{"\n"}
+          <b style={{ fontSize: 20 }}>결제예정 금액 20,000원</b>
+        </p>
       </div>
       <hr></hr>
       <div>
-        <button
+        <Button
+          variant="warning"
           onClick={() => {
             navigate("/payment");
           }}
+          style={{ width: 200, fontSize: 18 }}
         >
-          배달 주문하기 20,000원
-        </button>
+          <b>배달 주문하기</b> <b style={{ fontSize: 20 }}>20,000원</b>
+        </Button>
       </div>
     </div>
   );
