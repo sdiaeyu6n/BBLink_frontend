@@ -2,7 +2,7 @@ import React from "react";
 import { useNavigate } from "react-router-dom";
 import Button from "react-bootstrap/Button";
 
-const MenuOption = () => {
+const MO_kimchimandu = () => {
   const navigate = useNavigate();
   return (
     <>
@@ -62,7 +62,7 @@ const MenuOption = () => {
           <Button
             variant="warning"
             onClick={() => {
-              navigate("/mybag");
+              navigate("/store");
             }}
             style={{ width: 200, fontSize: 30 }}
           >
@@ -83,4 +83,4 @@ const MenuOption = () => {
   );
 };
 
-export default MenuOption;
+export default MO_kimchimandu;

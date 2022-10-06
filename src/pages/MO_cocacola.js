@@ -2,7 +2,7 @@ import React from "react";
 import { useNavigate } from "react-router-dom";
 import Button from "react-bootstrap/Button";
 
-const MenuOption = () => {
+const MO_cocacola = () => {
   const navigate = useNavigate();
   return (
     <>
@@ -15,18 +15,18 @@ const MenuOption = () => {
         <div className="MenuOptionImage" style={{ float: "left", margin: 10 }}>
           <img
             className="storeImg"
-            src="img/menu2_김치만두.png"
+            src="img/음료1_코카콜라.png"
             width="200"
             height="150"
-            alt="김치만두 이미지"
+            alt="코카콜라 이미지"
           />
         </div>
         <div className="MenuOptionText" style={{ float: "left", margin: 10 }}>
           {" "}
           <br></br>
-          <b style={{ fontSize: 30 }}>김치만두</b>
+          <b style={{ fontSize: 30 }}>코카콜라</b>
           <p></p>
-          <p style={{ fontSize: 17 }}>10개 (1인분)</p>
+          {/* <p style={{ fontSize: 17 }}>10개 (1인분)</p> */}
         </div>
       </div>
 
@@ -40,20 +40,14 @@ const MenuOption = () => {
           border: "2px solid grey",
         }}
       >
-        <b style={{ fontSize: 25 }}>가격 &nbsp;&nbsp;5,500원</b>
+        <b style={{ fontSize: 25 }}>가격 &nbsp;&nbsp;2,000원</b>
         <hr></hr>
-        <b style={{ fontSize: 25 }}>음료 추가</b>
-        <p></p>
-        <p>
-          &nbsp;
-          <input type="checkbox" /> 코카콜라 &nbsp;&nbsp;<b>+2,000원</b>
-        </p>
-        <p>
-          &nbsp;
-          <input type="checkbox" /> 칠성사이다 &nbsp;&nbsp;<b>+2,000원</b>
-        </p>
-        <hr></hr>
-        <b style={{ fontSize: 25 }}>수량</b>
+
+        <b style={{ float: "left", fontSize: 25 }}>수량</b>
+        <div style={{ float: "right" }}>
+          <img src="img/수량.png" width="120" height="40" />
+        </div>
+        <div style={{ clear: "both" }}></div>
         <hr></hr>
         <b style={{ fontSize: 25 }}>총 주문금액</b>
       </div>
@@ -62,7 +56,7 @@ const MenuOption = () => {
           <Button
             variant="warning"
             onClick={() => {
-              navigate("/mybag");
+              navigate("/store");
             }}
             style={{ width: 200, fontSize: 30 }}
           >
@@ -83,4 +77,4 @@ const MenuOption = () => {
   );
 };
 
-export default MenuOption;
+export default MO_cocacola;
