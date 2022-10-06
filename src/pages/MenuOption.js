@@ -15,7 +15,7 @@ const MenuOption = () => {
         <div className="MenuOptionImage" style={{ float: "left", margin: 10 }}>
           <img
             className="storeImg"
-            src="img/menu2_김치만두.jpg"
+            src="img/menu2_김치만두.png"
             width="200"
             height="150"
             alt="김치만두 이미지"
@@ -31,7 +31,7 @@ const MenuOption = () => {
       </div>
 
       <div style={{ clear: "both" }}></div>
-      <hr style={{ width: 700 }}></hr>
+      <hr></hr>
 
       <div
         style={{
@@ -40,51 +40,17 @@ const MenuOption = () => {
           border: "2px solid grey",
         }}
       >
-        <b style={{ fontSize: 25 }}>가격 &nbsp;&nbsp;34,000원</b>
-        <hr></hr>
-        <b style={{ fontSize: 25 }}>고기 추가</b>
-        <p></p>
-        <p>
-          &nbsp;
-          <input type="checkbox" /> 100g &nbsp;&nbsp;<b>8,000원</b>
-        </p>
-        <p>
-          &nbsp;
-          <input type="checkbox" /> 200g&nbsp;&nbsp; <b>15,000원</b>
-        </p>
-        <hr></hr>
-        <b style={{ fontSize: 25 }}>곁들임 메뉴 추가</b>
-        <p></p>
-        <p>
-          &nbsp;
-          <input type="checkbox" /> 참치마요밥 &nbsp;&nbsp;<b>4,000원</b>
-        </p>
-        <p>
-          &nbsp;
-          <input type="checkbox" /> 스팸김치볶음밥 &nbsp;&nbsp;<b>4,000원</b>
-        </p>
-        <p>
-          &nbsp;
-          <input type="checkbox" /> 김치찌개 추가 &nbsp;&nbsp;<b>6,000원</b>
-        </p>
-        <p>
-          &nbsp;
-          <input type="checkbox" /> 쫄면 추가 &nbsp;&nbsp;<b>5,000원</b>
-        </p>
-        <p>
-          &nbsp;
-          <input type="checkbox" /> 공기밥 추가 &nbsp;&nbsp;<b>1,000원</b>
-        </p>
+        <b style={{ fontSize: 25 }}>가격 &nbsp;&nbsp;5,500원</b>
         <hr></hr>
         <b style={{ fontSize: 25 }}>음료 추가</b>
         <p></p>
         <p>
           &nbsp;
-          <input type="checkbox" /> 콜라 &nbsp;&nbsp;<b>2,000원</b>
+          <input type="checkbox" /> 코카콜라 &nbsp;&nbsp;<b>+2,000원</b>
         </p>
         <p>
           &nbsp;
-          <input type="checkbox" /> 사이다 &nbsp;&nbsp;<b>2,000원</b>
+          <input type="checkbox" /> 칠성사이다 &nbsp;&nbsp;<b>+2,000원</b>
         </p>
         <hr></hr>
         <b style={{ fontSize: 25 }}>수량</b>
