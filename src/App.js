@@ -23,6 +23,7 @@ import TwinkleOrder from "./pages/TwinkleOrder";
 import StoreList from "./pages/StoreList";
 import Store from "./pages/Store";
 import MO_kimchimandu from "./pages/MO_kimchimandu";
+import MO_kimchimanducider from "./pages/MO_kimchimanducider";
 import MO_cocacola from "./pages/MO_cocacola";
 import MyBag from "./pages/MyBag";
 import SelectPage from "./pages/SelectPage";
@@ -83,6 +84,10 @@ function App() {
             <Route path="/TwinkleOrder" element={<TwinkleOrder />} />
             <Route path="/TwinkleReorder" element={<TwinkleReorder />} />
             <Route path="/Review" element={<Review />} />
+            <Route
+              path="/MO_kimchimanducider"
+              element={<MO_kimchimanducider />}
+            />
           </Routes>
           <BottomNav />
           {/* <RouteTest/>

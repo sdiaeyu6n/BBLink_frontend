@@ -2,7 +2,7 @@ import React from "react";
 import { useNavigate } from "react-router-dom";
 import Button from "react-bootstrap/Button";
 
-const MO_kimchimandu = () => {
+const MO_kimchimanducider = () => {
   const navigate = useNavigate();
   return (
     <>
@@ -53,13 +53,8 @@ const MO_kimchimandu = () => {
         </p>
         <p>
           &nbsp;
-          <input
-            type="checkbox"
-            onClick={() => {
-              navigate("/MO_kimchimanducider");
-            }}
-          />{" "}
-          칠성사이다 &nbsp;&nbsp;<b>+2,000원</b>
+          <input type="checkbox" checked="checked" /> 칠성사이다 &nbsp;&nbsp;
+          <b>+2,000원</b>
         </p>
         <hr></hr>
         <b style={{ fontSize: 25 }}>수량</b>
@@ -69,7 +64,7 @@ const MO_kimchimandu = () => {
         <div style={{ clear: "both" }}></div>
         <hr></hr>
         <b style={{ fontSize: 25 }}>
-          총 주문금액 &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;5,500원
+          총 주문금액 &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;7,500원
         </b>
       </div>
       <div className="MenuOptionBar">
@@ -98,4 +93,4 @@ const MO_kimchimandu = () => {
   );
 };
 
-export default MO_kimchimandu;
+export default MO_kimchimanducider;
