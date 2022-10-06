@@ -144,10 +144,9 @@ const StoreMenu = () => {
             width="100px"
             alt="얇은피 고기왕만두 이미지"
           />
-        </div>{" "}
+        </div>
         <div style={{ clear: "both" }}></div>
         <div className="StoreMenuText" style={{ float: "left", margin: 10 }}>
-          {" "}
           <b style={{ color: "red" }}>신메뉴</b>
           <h4 style={{ fontSize: 20 }}>얇은피 고기왕만두</h4>
           <b style={{ fontSize: 15 }}>6,000원</b>
