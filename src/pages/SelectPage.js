@@ -32,8 +32,8 @@ const SelectPage = () => {
         <div style={style} className="AppLogo">
           <img
             src="img/블링크 로고.png"
-            width="200"
-            height="200"
+            width="180"
+            height="180"
             alt="BBlink App logo image"
           />
         </div>
@@ -49,7 +49,7 @@ const SelectPage = () => {
               onClick={() => {
                 navigate("/");
               }}
-              style={{ width: 100, fontSize: 15 }}
+              style={{ width: 100, height: 50, fontSize: 15 }}
             >
               <b>로그인</b>
             </Button>{" "}
