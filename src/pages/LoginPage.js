@@ -3,6 +3,7 @@ import CMInput from '../components/CMInput';
 import HeadButton from '../components/HeadButton'
 import {useNavigate} from "react-router-dom";
 import styled from 'styled-components';
+
 const StyledButton2 = styled.button`
 height: 60px;
 width: 200px;
@@ -13,6 +14,8 @@ font-color:black;
 `;
 
 function LoginPage() {
+  
+
     const navigate=useNavigate();
  return (
  <div>
@@ -20,11 +23,14 @@ function LoginPage() {
 
     <br />
 <HeadButton text={'로그인'}/>
+<br/>
+<br/>
  <h1>아이디 </h1> 
- <CMInput hint="아이디"/>
+ <CMInput hint="아이디" type="name"/>
  <br />
+ <br/>
  <h1>비밀번호 </h1>
- <CMInput hint="비밀번호" type="text" />
+ <CMInput hint="비밀번호" type="password" />
  <br />
  <br />
 

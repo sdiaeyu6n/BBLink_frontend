@@ -46,7 +46,7 @@ const SelectPage = () => {
             <Button
               variant="warning"
               onClick={() => {
-                navigate("/LoginPage");
+                navigate("/");
               }}
               style={{ width: 100, fontSize: 15 }}
             >

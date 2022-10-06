@@ -44,6 +44,8 @@ function App() {
             <Route path="/MyPage" element={<MyPage />} />
 
             <Route path="/" element={<LoginPage />} />
+            <Route path="/LoginPage" element={<LoginPage />} />
+          
             <Route path="/JoinPage" element={<JoinPage />} />
             <Route path="/JoinMoney" element={<JoinMoney />} />
             <Route path="/JoinAdress" element={<JoinAdress />} />
