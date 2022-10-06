@@ -14,17 +14,17 @@ const SelectPage = () => {
     <>
       <div
         style={{
-          marginTop: 20,
-          marginLeft: 30,
-          marginBottom: 20,
+          // marginTop: 60,
+          // marginLeft: 15,
+          // marginBottom: 20,
           alignContent: "center",
           whiteSpace: "pre-wrap",
         }}
       >
         <b style={{ fontSize: 20 }}>시각장애인을 위한 배달 플랫폼</b>
         {"\n"}
-        <b style={{ fontSize: 35, marginLeft: 68 }}>BBlink</b>
-        <p style={{ fontSize: 14, marginLeft: 60 }}>
+        <b style={{ fontSize: 35 }}>BBlink</b>
+        <p style={{ fontSize: 14 }}>
           프로보노 ICT 멘토링{"\n"}동국대학교 prICEless
         </p>
       </div>
@@ -32,8 +32,8 @@ const SelectPage = () => {
         <div className="AppLogo">
           <img
             src="img/블링크 로고.png"
-            width="200"
-            height="200"
+            width="180"
+            height="180"
             alt="BBlink App logo image"
           />
         </div>
@@ -49,7 +49,7 @@ const SelectPage = () => {
               onClick={() => {
                 navigate("/");
               }}
-              style={{ width: 100, fontSize: 15 }}
+              style={{ width: 100, height: 50, fontSize: 15 }}
             >
               <b>로그인</b>
             </Button>{" "}
@@ -60,7 +60,7 @@ const SelectPage = () => {
               onClick={() => {
                 navigate("/JoinPage");
               }}
-              style={{ width: 100, fontSize: 15 }}
+              style={{ width: 100, height: 50, fontSize: 15 }}
             >
               <b>회원가입</b>
             </Button>{" "}
