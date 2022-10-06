@@ -27,13 +27,12 @@ export const GlobalStyle = createGlobalStyle`
     overflow-y: scroll;
     margin: 0;
     display: flex;
-    align-items: center;
+    //align-items: center;
     justify-content: center;
     background-color: #FFF;
     font-weight: 500;
-    // margin-bottom: 60px;
     font-family: 'GmarketSansMedium';
-
+    margin-bottom : 100px;
   }
 
   @media only screen and (max-width: 359px) and (min-width:200px) { //375px 너무 작아서 수정했음

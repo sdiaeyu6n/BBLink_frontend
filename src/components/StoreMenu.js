@@ -27,8 +27,7 @@ const StoreMenu = () => {
             }}
             className="storeImg"
             src="img/menu1_모듬세트.png"
-            width="200"
-            height="150"
+            width="100px"
             alt="모듬세트 이미지"
           />
         </div>
@@ -50,14 +49,12 @@ const StoreMenu = () => {
             }}
             className="storeImg"
             src="img/menu2_김치만두.png"
-            width="200"
-            height="150"
+            width="100px"
             alt="김치만두 이미지"
           />
         </div>
 
         <div className="StoreMenuText" style={{ float: "left", margin: 10 }}>
-          {" "}
           <h4 style={{ fontSize: 25 }}>김치만두</h4>
           {/* <b style={{ color: "red" }}>빨간색 글자입니다.</b> */}
           <b style={{ fontSize: 20 }}>5,500원</b>
@@ -74,8 +71,7 @@ const StoreMenu = () => {
             }}
             className="storeImg"
             src="img/menu3_왕만두.png"
-            width="200"
-            height="150"
+            width="100px"
             alt="왕만두 이미지"
           />
         </div>
@@ -98,13 +94,15 @@ const StoreMenu = () => {
             }}
             className="storeImg"
             src="img/menu4_고기만두.png"
-            width="200"
-            height="150"
+            width="100px"
             alt="고기만두 이미지"
           />
         </div>
 
-        <div className="StoreMenuText" style={{ float: "left", margin: 10 }}>
+        <div
+          className="StoreMenuText"
+          style={{ float: "left", margin: 10, display: "absolute" }}
+        >
           {" "}
           <h4 style={{ fontSize: 25 }}>고기만두</h4>
           {/* <b style={{ color: "red" }}>빨간색 글자입니다.</b> */}
@@ -120,8 +118,7 @@ const StoreMenu = () => {
             }}
             className="storeImg"
             src="img/menu5_새우만두.png"
-            width="200"
-            height="150"
+            width="100px"
             alt="새우만두 이미지"
           />
         </div>
@@ -149,11 +146,11 @@ const StoreMenu = () => {
           <img
             className="storeImg"
             src="img/신메뉴1_얇은피 고기왕만두.png"
-            width="200"
-            height="150"
+            width="100px"
             alt="얇은피 고기왕만두 이미지"
           />
-        </div>
+        </div>{" "}
+        <div style={{ clear: "both" }}></div>
         <div className="StoreMenuText" style={{ float: "left", margin: 10 }}>
           {" "}
           <b style={{ color: "red" }}>신메뉴</b>
@@ -162,14 +159,12 @@ const StoreMenu = () => {
           <p>얇은피에 속이 꽉찬 고기 왕만두 (5개)</p>
         </div>
         <div style={{ clear: "both" }}></div>
-
         <hr></hr>
         <div className="StoreInfoImage" style={{ float: "left", margin: 10 }}>
           <img
             className="storeImg"
             src="img/신메뉴2_얇은피 김치왕만두.png"
-            width="200"
-            height="150"
+            width="100px"
             alt="얇은피 김치왕만두 이미지"
           />
         </div>
@@ -186,8 +181,7 @@ const StoreMenu = () => {
           <img
             className="storeImg"
             src="img/메인메뉴3_고기김치반반.png"
-            width="200"
-            height="150"
+            width="100px"
             alt="고기김치반반 이미지"
           />
         </div>
@@ -207,12 +201,10 @@ const StoreMenu = () => {
             }}
             className="storeImg"
             src="img/menu4_고기만두.png"
-            width="200"
-            height="150"
+            width="100px"
             alt="고기만두 이미지"
           />
         </div>
-
         <div className="StoreMenuText" style={{ float: "left", margin: 10 }}>
           {" "}
           <h4 style={{ fontSize: 25 }}>고기만두</h4>
@@ -229,12 +221,10 @@ const StoreMenu = () => {
             }}
             className="storeImg"
             src="img/menu2_김치만두.png"
-            width="200"
-            height="150"
+            width="100px"
             alt="김치만두 이미지"
           />
         </div>
-
         <div className="StoreMenuText" style={{ float: "left", margin: 10 }}>
           {" "}
           <h4 style={{ fontSize: 25 }}>김치만두</h4>
@@ -242,9 +232,7 @@ const StoreMenu = () => {
           <b style={{ fontSize: 20 }}>5,500원</b>
           <p>10개 (1인분)</p>
         </div>
-
         <div style={{ clear: "both" }}></div>
-
         <hr></hr>
         <div className="StoreInfoImage" style={{ float: "left", margin: 10 }}>
           <img
@@ -253,12 +241,10 @@ const StoreMenu = () => {
             }}
             className="storeImg"
             src="img/menu5_새우만두.png"
-            width="200"
-            height="150"
+            width="100px"
             alt="새우만두 이미지"
           />
         </div>
-
         <div className="StoreMenuText" style={{ float: "left", margin: 10 }}>
           {" "}
           <h4 style={{ fontSize: 25 }}>새우만두</h4>
@@ -267,7 +253,6 @@ const StoreMenu = () => {
           <p>6개 (1인분)</p>
         </div>
         <div style={{ clear: "both" }}></div>
-
         <hr></hr>
         <div className="StoreInfoImage" style={{ float: "left", margin: 10 }}>
           <img
@@ -276,12 +261,10 @@ const StoreMenu = () => {
             }}
             className="storeImg"
             src="img/메인메뉴4_갈비만두.png"
-            width="200"
-            height="150"
+            width="100px"
             alt="갈비만두 이미지"
           />
         </div>
-
         <div className="StoreMenuText" style={{ float: "left", margin: 10 }}>
           {" "}
           <h4 style={{ fontSize: 25 }}>갈비만두</h4>
@@ -298,12 +281,10 @@ const StoreMenu = () => {
             }}
             className="storeImg"
             src="img/menu3_왕만두.png"
-            width="200"
-            height="150"
+            width="100px"
             alt="왕만두 이미지"
           />
         </div>
-
         <div className="StoreMenuText" style={{ float: "left", margin: 10 }}>
           {" "}
           <h4 style={{ fontSize: 25 }}>왕만두</h4>
@@ -311,7 +292,6 @@ const StoreMenu = () => {
           <b style={{ fontSize: 20 }}>6,000원</b>
           <p>고기만두, 김치만두 중 선택 가능 (5개 1인분)</p>
         </div>
-
         <div style={{ clear: "both" }}></div>
       </div>
       <div style={{ clear: "both" }}></div>
@@ -330,8 +310,7 @@ const StoreMenu = () => {
             }}
             className="storeImg"
             src="img/menu1_모듬세트.png"
-            width="200"
-            height="150"
+            width="100px"
             alt="모듬세트 이미지"
           />
         </div>
@@ -361,8 +340,7 @@ const StoreMenu = () => {
             }}
             className="storeImg"
             src="img/음료1_코카콜라.png"
-            width="200"
-            height="150"
+            width="100px"
             alt="코카콜라 이미지"
           />
         </div>
@@ -379,8 +357,7 @@ const StoreMenu = () => {
           <img
             className="storeImg"
             src="img/음료2_칠성사이다.png"
-            width="200"
-            height="150"
+            width="100px"
             alt="칠성사이다 이미지"
           />
         </div>

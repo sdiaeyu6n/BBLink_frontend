@@ -31,7 +31,7 @@ import PayFin from "./pages/PayFin";
 import StoreInfo from "./pages/StoreInfo";
 import StoreReview from "./pages/StoreReview";
 import BottomNav from "./components/BottomNav";
-
+import Review from "./pages/Review";
 function App() {
   return (
     <>
@@ -79,8 +79,10 @@ function App() {
             <Route path="/payfin" element={<PayFin />} />
             <Route path="/storeinfo" element={<StoreInfo />} />
             <Route path="/storereview" element={<StoreReview />} />
+
             <Route path="/TwinkleOrder" element={<TwinkleOrder />} />
             <Route path="/TwinkleReorder" element={<TwinkleReorder />} />
+            <Route path="/Review" element={<Review />} />
           </Routes>
           <BottomNav />
           {/* <RouteTest/>

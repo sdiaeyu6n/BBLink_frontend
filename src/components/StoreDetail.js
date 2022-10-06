@@ -49,19 +49,19 @@ const StoreDetail = () => {
             <br></br>
             배달 소요 시간 <b>18분</b>
             <div style={{ clear: "both" }}></div>
-            <hr style={{ width: 500 }}></hr>
+            <hr></hr>
             <div>
               <Button
                 variant="warning"
                 onClick={handleCall}
-                style={{ width: 100, fontSize: 30 }}
+                style={{ width: "100px", fontSize: "22px" }}
               >
                 <b>전화</b>
               </Button>{" "}
               <Button
                 variant="warning"
                 onClick={handleHeart}
-                style={{ width: 100, fontSize: 30 }}
+                style={{ width: "100px", fontSize: "22px" }}
               >
                 <b>찜</b>
               </Button>
