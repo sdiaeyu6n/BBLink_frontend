@@ -22,7 +22,8 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import TwinkleOrder from "./pages/TwinkleOrder";
 import StoreList from "./pages/StoreList";
 import Store from "./pages/Store";
-import MenuOption from "./pages/MenuOption";
+import MO_kimchimandu from "./pages/MO_kimchimandu";
+import MO_cocacola from "./pages/MO_cocacola";
 import MyBag from "./pages/MyBag";
 import SelectPage from "./pages/SelectPage";
 import Payment from "./pages/Payment";
@@ -45,7 +46,7 @@ function App() {
 
             <Route path="/" element={<LoginPage />} />
             <Route path="/LoginPage" element={<LoginPage />} />
-          
+
             <Route path="/JoinPage" element={<JoinPage />} />
             <Route path="/JoinMoney" element={<JoinMoney />} />
             <Route path="/JoinAdress" element={<JoinAdress />} />
@@ -71,14 +72,15 @@ function App() {
             <Route path="/SelectPage" element={<SelectPage />} />
             <Route path="/storelist" element={<StoreList />} />
             <Route path="/store" element={<Store />} />
-            <Route path="/menuoption" element={<MenuOption />} />
+            <Route path="/MO_kimchimandu" element={<MO_kimchimandu />} />
+            <Route path="/MO_cocacola" element={<MO_cocacola />} />
             <Route path="/mybag" element={<MyBag />} />
             <Route path="/payment" element={<Payment />} />
             <Route path="/payfin" element={<PayFin />} />
             <Route path="/storeinfo" element={<StoreInfo />} />
             <Route path="/storereview" element={<StoreReview />} />
-            <Route path="/TwinkleOrder" element={<TwinkleOrder/>}/>
-            <Route path="/TwinkleReorder" element={<TwinkleReorder/>}/>
+            <Route path="/TwinkleOrder" element={<TwinkleOrder />} />
+            <Route path="/TwinkleReorder" element={<TwinkleReorder />} />
           </Routes>
           <BottomNav />
           {/* <RouteTest/>

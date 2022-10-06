@@ -18,7 +18,7 @@ const StoreMenu = () => {
         <DropDown2 />
         <br></br>
         <h3>대표 메뉴</h3>
-        <hr style={{ width: 700 }}></hr>
+        <hr></hr>
 
         <div className="StoreInfoImage" style={{ float: "left", margin: 10 }}>
           <img
@@ -42,11 +42,11 @@ const StoreMenu = () => {
         </div>
         <div style={{ clear: "both" }}></div>
 
-        <hr style={{ width: 700 }}></hr>
+        <hr></hr>
         <div className="StoreInfoImage" style={{ float: "left", margin: 10 }}>
           <img
             onClick={() => {
-              navigate("/menuoption");
+              navigate("/MO_kimchimandu");
             }}
             className="storeImg"
             src="img/menu2_김치만두.png"
@@ -66,7 +66,7 @@ const StoreMenu = () => {
 
         <div style={{ clear: "both" }}></div>
 
-        <hr style={{ width: 700 }}></hr>
+        <hr></hr>
         <div className="StoreInfoImage" style={{ float: "left", margin: 10 }}>
           <img
             onClick={() => {
@@ -90,7 +90,7 @@ const StoreMenu = () => {
 
         <div style={{ clear: "both" }}></div>
 
-        <hr style={{ width: 700 }}></hr>
+        <hr></hr>
         <div className="StoreInfoImage" style={{ float: "left", margin: 10 }}>
           <img
             onClick={() => {
@@ -111,8 +111,8 @@ const StoreMenu = () => {
           <b style={{ fontSize: 20 }}>5,500원</b>
           <p>10개 (1인분)</p>
         </div>
-
-        <hr style={{ width: 700 }}></hr>
+        <div style={{ clear: "both" }}></div>
+        <hr></hr>
         <div className="StoreInfoImage" style={{ float: "left", margin: 10 }}>
           <img
             onClick={() => {
@@ -144,7 +144,7 @@ const StoreMenu = () => {
         }}
       >
         <h3>메인 메뉴</h3>
-        <hr style={{ width: 700 }}></hr>
+        <hr></hr>
         <div className="StoreInfoImage" style={{ float: "left", margin: 10 }}>
           <img
             className="storeImg"
@@ -163,7 +163,7 @@ const StoreMenu = () => {
         </div>
         <div style={{ clear: "both" }}></div>
 
-        <hr style={{ width: 700 }}></hr>
+        <hr></hr>
         <div className="StoreInfoImage" style={{ float: "left", margin: 10 }}>
           <img
             className="storeImg"
@@ -180,8 +180,8 @@ const StoreMenu = () => {
           <b style={{ fontSize: 20 }}>6,000원</b>
           <p>얇은피에 속이 꽉찬 김치 왕만두 (5개)</p>
         </div>
-
-        <hr style={{ width: 700 }}></hr>
+        <div style={{ clear: "both" }}></div>
+        <hr></hr>
         <div className="StoreInfoImage" style={{ float: "left", margin: 10 }}>
           <img
             className="storeImg"
@@ -198,7 +198,8 @@ const StoreMenu = () => {
           <b style={{ fontSize: 20 }}>5,500원</b>
           <p>고기 5개 + 김치 5개 (10개)</p>
         </div>
-        <hr style={{ width: 700 }}></hr>
+        <div style={{ clear: "both" }}></div>
+        <hr></hr>
         <div className="StoreInfoImage" style={{ float: "left", margin: 10 }}>
           <img
             onClick={() => {
@@ -219,12 +220,12 @@ const StoreMenu = () => {
           <b style={{ fontSize: 20 }}>5,500원</b>
           <p>10개 (1인분)</p>
         </div>
-
-        <hr style={{ width: 700 }}></hr>
+        <div style={{ clear: "both" }}></div>
+        <hr></hr>
         <div className="StoreInfoImage" style={{ float: "left", margin: 10 }}>
           <img
             onClick={() => {
-              navigate("/menuoption");
+              navigate("/MO_kimchimandu");
             }}
             className="storeImg"
             src="img/menu2_김치만두.png"
@@ -244,7 +245,7 @@ const StoreMenu = () => {
 
         <div style={{ clear: "both" }}></div>
 
-        <hr style={{ width: 700 }}></hr>
+        <hr></hr>
         <div className="StoreInfoImage" style={{ float: "left", margin: 10 }}>
           <img
             onClick={() => {
@@ -267,7 +268,7 @@ const StoreMenu = () => {
         </div>
         <div style={{ clear: "both" }}></div>
 
-        <hr style={{ width: 700 }}></hr>
+        <hr></hr>
         <div className="StoreInfoImage" style={{ float: "left", margin: 10 }}>
           <img
             onClick={() => {
@@ -289,7 +290,7 @@ const StoreMenu = () => {
           <p>10개 (1인분)</p>
         </div>
         <div style={{ clear: "both" }}></div>
-        <hr style={{ width: 700 }}></hr>
+        <hr></hr>
         <div className="StoreInfoImage" style={{ float: "left", margin: 10 }}>
           <img
             onClick={() => {
@@ -321,7 +322,7 @@ const StoreMenu = () => {
         }}
       >
         <h3>세트메뉴</h3>
-        <hr style={{ width: 700 }}></hr>
+        <hr></hr>
         <div className="StoreInfoImage" style={{ float: "left", margin: 10 }}>
           <img
             onClick={() => {
@@ -352,9 +353,12 @@ const StoreMenu = () => {
         }}
       >
         <h3>음료</h3>
-        <hr style={{ width: 700 }}></hr>
+        <hr></hr>
         <div className="StoreInfoImage" style={{ float: "left", margin: 10 }}>
           <img
+            onClick={() => {
+              navigate("/MO_cocacola");
+            }}
             className="storeImg"
             src="img/음료1_코카콜라.png"
             width="200"
@@ -370,7 +374,7 @@ const StoreMenu = () => {
           {/* <p>오렌지를 직접 갈아 만든 건강한 오렌지 주스입니다.</p> */}
         </div>
         <div style={{ clear: "both" }}></div>
-        <hr style={{ width: 700 }}></hr>
+        <hr></hr>
         <div className="StoreInfoImage" style={{ float: "left", margin: 10 }}>
           <img
             className="storeImg"
