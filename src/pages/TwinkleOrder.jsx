@@ -6,7 +6,7 @@ import { useNavigate } from 'react-router-dom';
 
 const StyledButton2 = styled.button`
 height: 60px;
-width: 100px;
+width: 80px;
 background-color: #ffef82;
 font-size: 20px;
 font-weight: 700;
@@ -15,9 +15,9 @@ font-color:black;
 
 const StyledButton = styled.button`
 height: 60px;
-width: 250px;
+width: 200px;
 background-color: #ffef82;
-font-size: 20px;
+font-size: 15px;
 font-weight: 700;
 font-color:black;
 `;
