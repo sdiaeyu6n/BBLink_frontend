@@ -8,12 +8,9 @@ const MyBag = () => {
     <div
       className="MyBag"
       style={{
-        marginTop: 5,
-        marginLeft: 5,
-        marginRight: 5,
-        marginBottom: 10,
-        alignContent: "center",
-        whiteSpace: "pre-wrap",
+        margin: "20px",
+        marginLeft: "20px",
+        marginTop: "50px",
       }}
     >
       <div>
@@ -59,7 +56,7 @@ const MyBag = () => {
       <div style={{ clear: "both" }}></div>
       <p>{"\n"}</p>
 
-      <div style={{ margin: 10 }}>
+      <div>
         <Button
           variant="warning"
           onClick={() => {
@@ -87,10 +84,9 @@ const MyBag = () => {
             navigate("/payment");
           }}
           style={{
-            width: 355,
+            width: "320px",
             fontSize: 20,
             float: "center",
-            marginLeft: "2px",
           }}
         >
           <b>배달 주문하기</b> <b style={{ fontSize: 20 }}>12,500원</b>
