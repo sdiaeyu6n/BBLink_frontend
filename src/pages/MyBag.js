@@ -18,15 +18,6 @@ const MyBag = () => {
     >
       <div>
         <h2>
-          <Button
-            variant="warning"
-            onClick={() => {
-              navigate("/store");
-            }}
-            style={{ width: 100, fontSize: 15 }}
-          >
-            <b>뒤로가기</b>
-          </Button>{" "}
           <b style={{ fontSize: 30 }}>장바구니</b>
         </h2>
       </div>
@@ -48,7 +39,7 @@ const MyBag = () => {
       <h3>김치만두</h3>
       <p style={{ fontSize: 18 }}>
         가격: 5,500원{"\n"}
-        콜라 추가 (2,000원){"\n"}
+        칠성사이다 추가 (2,000원){"\n"}
       </p>
       <b style={{ fontSize: 20, float: "left" }}>7,500원</b>
 
@@ -58,7 +49,7 @@ const MyBag = () => {
       <div style={{ clear: "both" }}></div>
       <hr></hr>
 
-      <h3>사이다</h3>
+      <h3>콜라</h3>
       <p style={{ fontSize: 18 }}>가격: 2,000원{"\n"}</p>
       <b style={{ fontSize: 20, float: "left" }}>2,000원</b>
 
