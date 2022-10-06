@@ -6,18 +6,18 @@ import React from "react";
 const SelectPage = () => {
   const navigate = useNavigate();
   const style = {
-    width: 100,
-    height: 100,
-    marginLeft: 50,
+    display: "flex",
+    justifyContent: "center",
+    alignItems: "center",
   };
   return (
     <>
       <div
         style={{
-          // marginTop: 60,
-          // marginLeft: 15,
-          // marginBottom: 20,
-          alignContent: "center",
+          marginTop: "150px",
+
+          // display: "flex",
+          textAlign: "center",
           whiteSpace: "pre-wrap",
         }}
       >
@@ -28,8 +28,8 @@ const SelectPage = () => {
           프로보노 ICT 멘토링{"\n"}동국대학교 prICEless
         </p>
       </div>
-      <div style={style}>
-        <div className="AppLogo">
+      <div>
+        <div style={style} className="AppLogo">
           <img
             src="img/블링크 로고.png"
             width="180"
@@ -39,11 +39,11 @@ const SelectPage = () => {
         </div>
         <div
           style={{
-            margin: 20,
+            marginTop: 20,
             padding: 20,
           }}
         >
-          <div style={{ margin: 10 }}>
+          <div style={style}>
             <Button
               variant="warning"
               onClick={() => {
@@ -54,13 +54,13 @@ const SelectPage = () => {
               <b>로그인</b>
             </Button>{" "}
           </div>
-          <div style={{ margin: 10 }}>
+          <div style={style}>
             <Button
               variant="warning"
               onClick={() => {
                 navigate("/JoinPage");
               }}
-              style={{ width: 100, height: 50, fontSize: 15 }}
+              style={{ width: 100, fontSize: 15, margin: "15px" }}
             >
               <b>회원가입</b>
             </Button>{" "}
