@@ -7,6 +7,8 @@ function DeliveryNow() {
 
 <div>
 <center>
+    <br/>
+    <br/>
     <h1>
         배달 현황
         </h1>
