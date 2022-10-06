@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
 import Button from "react-bootstrap/Button";
+import React from "react";
 const PayFin = () => {
   const navigate = useNavigate();
   return (

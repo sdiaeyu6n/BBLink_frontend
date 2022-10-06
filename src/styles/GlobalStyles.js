@@ -31,7 +31,7 @@ export const GlobalStyle = createGlobalStyle`
     justify-content: center;
     background-color: #FFF;
     font-weight: 500;
-    margin-bottom: 60px;
+    // margin-bottom: 60px;
     font-family: 'GmarketSansMedium';
 
   }
