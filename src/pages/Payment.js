@@ -6,8 +6,8 @@ import React from "react";
 const Payment = () => {
   const navigate = useNavigate();
   const [state, setState] = useState({
-    address: "(필수) 주소를 입력해주세요",
-    contact: "(필수) 연락처를 입력해주세요",
+    address: "서울특별시 중구 장충동2가 193-86 현대빌라 201호",
+    contact: "010-2132-2112",
     ask: "(선택) 내용을 입력해주세요",
     method: 1,
   });
@@ -108,7 +108,7 @@ const Payment = () => {
           }}
           style={{ width: 300, fontSize: 25 }}
         >
-          <b>00,000원 결제하기</b>
+          <b>12,500원 결제하기</b>
         </Button>
       </div>
     </div>

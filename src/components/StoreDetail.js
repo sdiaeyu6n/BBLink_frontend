@@ -64,6 +64,16 @@ const StoreDetail = () => {
                 style={{ width: "100px", fontSize: "22px" }}
               >
                 <b>찜</b>
+              </Button>
+              {"  "}
+              <Button
+                variant="success"
+                onClick={() => {
+                  navigate("/mybag");
+                }}
+                style={{ width: 250, fontSize: 30, marginLeft: 15 }}
+              >
+                <b>장바구니 보기</b>
               </Button>{" "}
             </div>
           </div>

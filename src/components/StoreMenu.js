@@ -46,7 +46,7 @@ const StoreMenu = () => {
         <div className="StoreInfoImage" style={{ float: "left", margin: 10 }}>
           <img
             onClick={() => {
-              navigate("/menuoption");
+              navigate("/MO_kimchimandu");
             }}
             className="storeImg"
             src="img/menu2_김치만두.png"
@@ -216,7 +216,7 @@ const StoreMenu = () => {
         <div className="StoreInfoImage" style={{ float: "left", margin: 10 }}>
           <img
             onClick={() => {
-              navigate("/menuoption");
+              navigate("/MO_kimchimandu");
             }}
             className="storeImg"
             src="img/menu2_김치만두.png"
@@ -338,6 +338,9 @@ const StoreMenu = () => {
         <hr></hr>
         <div className="StoreInfoImage" style={{ float: "left", margin: 10 }}>
           <img
+            onClick={() => {
+              navigate("/MO_cocacola");
+            }}
             className="storeImg"
             src="img/음료1_코카콜라.png"
             width="100px"
