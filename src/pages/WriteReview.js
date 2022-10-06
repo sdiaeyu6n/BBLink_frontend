@@ -1,10 +1,7 @@
 import React from 'react';
-import CMInput from '../components/CMInput';
-
 import styled from 'styled-components';
 import HeadButton from '../components/HeadButton';
-
-
+import { useNavigate } from 'react-router-dom';
 
 const StyledButton = styled.button`
 height: 60px;
@@ -26,15 +23,9 @@ font-size: 20px;
 font-weight: 700;
 `;
 
-const StyledButton3 = styled.button`
-height: 50px;
-width: 200px;
-background-color: #ffef82;
-border-color:#ffef82;
-font-size: 20px;
-font-weight: 700;
-`;
+
 function WriteReview() {
+    const navigate = useNavigate();
  return (
 
 <div>
@@ -47,30 +38,18 @@ function WriteReview() {
     <StyledButton>엽기떡볶이 동대문점</StyledButton>
 
 &nbsp; &nbsp; &nbsp;
-<StyledButton2>리뷰 작성</StyledButton2>
+<StyledButton2  onClick={() => {
+            navigate("/Review");
+          }}>리뷰 작성</StyledButton2>
 <br/>
 <br/>
 
 <StyledButton>봉추찜닭 서울대입구역점
 </StyledButton>
 &nbsp; &nbsp; &nbsp;
-<StyledButton2>리뷰 작성</StyledButton2>
-
-        <br/>
-        <br/>
-        <br/>
-        <StyledButton3>리뷰 작성하기</StyledButton3>
-        <br/>
-        <br/>
-
-        <label>
-        별점
-        <br/> </label>
-        <CMInput hint="리뷰" /><button>추가</button>
-        <br/>
-        <label>사진 넣을 자리!</label>
-        <br/>
-        <br/>
+<StyledButton2 onClick={() => {
+            navigate("/Review");
+          }}>리뷰 작성</StyledButton2>
 
 </center>
  </div>
