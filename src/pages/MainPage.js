@@ -25,6 +25,15 @@ const MainPage=()=> {
   font-weight: 700;
 `;
 
+const StyledButton3 = styled.button`
+height: 100px;
+width: 300px;
+background-color: #ffef82;
+border-color:#ffef82;
+font-size: 20px;
+font-weight: 700;
+`;
+
  return (
 
 <div className="MainPage">
@@ -56,11 +65,10 @@ navigate('/CategoryPage')
 
  <br/>
  <br/>
- <HeadButton text={'현재 배달 현황1'}/>
- <br/>
- <br/>
- <HeadButton text={'현재 배달 현황2'}/>
- 
+ <StyledButton3 onClick={()=>{
+navigate('/CategoryPage')
+}
+}>현재 배달현황 확인하기</StyledButton3>
 </center>
 <br/>
 <br/>
