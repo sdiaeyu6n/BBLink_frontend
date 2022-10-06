@@ -1,6 +1,7 @@
 // import DropDown from "../components/Dropdown";
 import { useNavigate } from "react-router-dom";
 import DropDown2 from "../components/Dropdown2";
+import React from "react";
 
 const StoreMenu = () => {
   const navigate = useNavigate();

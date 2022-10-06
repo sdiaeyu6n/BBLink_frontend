@@ -1,6 +1,7 @@
 import { useNavigate } from "react-router-dom";
 import { useState } from "react";
 import Button from "react-bootstrap/Button";
+import React from "react";
 
 const Payment = () => {
   const navigate = useNavigate();
