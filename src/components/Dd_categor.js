@@ -1,5 +1,6 @@
 import Nav from "react-bootstrap/Nav";
 import NavDropdown from "react-bootstrap/NavDropdown";
+import React from "react";
 
 function Dd_categor() {
   // const handleSelect = (eventKey) => alert(`selected ${eventKey}`);
