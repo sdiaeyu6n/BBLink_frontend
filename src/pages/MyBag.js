@@ -8,9 +8,10 @@ const MyBag = () => {
     <div
       className="MyBag"
       style={{
-        marginTop: 20,
-        marginLeft: 30,
-        marginBottom: 20,
+        marginTop: 5,
+        marginLeft: 5,
+        marginRight: 5,
+        marginBottom: 10,
         alignContent: "center",
         whiteSpace: "pre-wrap",
       }}
@@ -94,7 +95,12 @@ const MyBag = () => {
           onClick={() => {
             navigate("/payment");
           }}
-          style={{ width: 360, fontSize: 20, float: "center" }}
+          style={{
+            width: 355,
+            fontSize: 20,
+            float: "center",
+            marginLeft: "2px",
+          }}
         >
           <b>배달 주문하기</b> <b style={{ fontSize: 20 }}>12,500원</b>
         </Button>
