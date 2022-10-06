@@ -68,7 +68,9 @@ const StoreDetail = () => {
               {"  "}
               <Button
                 variant="success"
-                onClick={handleHeart}
+                onClick={() => {
+                  navigate("/mybag");
+                }}
                 style={{ width: 250, fontSize: 30, marginLeft: 15 }}
               >
                 <b>장바구니 보기</b>
