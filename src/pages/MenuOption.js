@@ -15,20 +15,18 @@ const MenuOption = () => {
         <div className="MenuOptionImage" style={{ float: "left", margin: 10 }}>
           <img
             className="storeImg"
-            src="img/menu1.jpg"
+            src="img/menu2_김치만두.jpg"
             width="200"
-            height="200"
-            alt="삼겹살 음식 이미지"
+            height="150"
+            alt="김치만두 이미지"
           />
         </div>
         <div className="MenuOptionText" style={{ float: "left", margin: 10 }}>
           {" "}
           <br></br>
-          <b style={{ fontSize: 30 }}>직화삼겹구이</b>
+          <b style={{ fontSize: 30 }}>김치만두</b>
           <p></p>
-          <p style={{ fontSize: 17 }}>
-            몸에 좋고 맛도 좋은 숯불 직화 삼겹살 구이입니다.
-          </p>
+          <p style={{ fontSize: 17 }}>10개 (1인분)</p>
         </div>
       </div>
 
