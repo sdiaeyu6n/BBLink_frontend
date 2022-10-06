@@ -48,7 +48,9 @@ navigate('/SelectPage')
  <StyledButton2>찜/탕</StyledButton2>   <StyledButton2>구이</StyledButton2>  <StyledButton2>피자</StyledButton2>
  <br/>
  <br/>
- <StyledButton2>중식</StyledButton2>   <StyledButton2>일식</StyledButton2>  <StyledButton2>회/해물</StyledButton2>
+ <StyledButton2 onClick={() => {
+            navigate("/StoreList");
+          }}>중식</StyledButton2>   <StyledButton2>일식</StyledButton2>  <StyledButton2>회/해물</StyledButton2>
  <br/>
  <br/>
  <StyledButton2>양식</StyledButton2>   <StyledButton2>커피/차</StyledButton2>  <StyledButton2>디저트</StyledButton2>

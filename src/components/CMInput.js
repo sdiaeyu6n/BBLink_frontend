@@ -11,7 +11,7 @@ const StyledInput = styled.input`
  border: 2px solid gray;
 `;
 function CMInput(props) {
- return <StyledInput placeholder={`${props.hint}를 입력해주세요.`} type={props.hint}
+ return <StyledInput placeholder={`${props.hint}를 입력해주세요.`} type={props.type}
 />;
 }
 export default CMInput;
