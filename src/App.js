@@ -45,7 +45,7 @@ function App() {
 
             <Route path="/" element={<LoginPage />} />
             <Route path="/LoginPage" element={<LoginPage />} />
-          
+
             <Route path="/JoinPage" element={<JoinPage />} />
             <Route path="/JoinMoney" element={<JoinMoney />} />
             <Route path="/JoinAdress" element={<JoinAdress />} />
@@ -77,9 +77,11 @@ function App() {
             <Route path="/payfin" element={<PayFin />} />
             <Route path="/storeinfo" element={<StoreInfo />} />
             <Route path="/storereview" element={<StoreReview />} />
+
             <Route path="/TwinkleOrder" element={<TwinkleOrder/>}/>
             <Route path="/TwinkleReorder" element={<TwinkleReorder/>}/>
             <Route path="/Review" element={<Review/>}/>
+
           </Routes>
           <BottomNav />
           {/* <RouteTest/>
