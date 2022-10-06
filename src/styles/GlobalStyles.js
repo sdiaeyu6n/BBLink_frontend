@@ -24,12 +24,13 @@ export const GlobalStyle = createGlobalStyle`
   body {
     width: 100%;
     height: 100vh;
+    margin : 10;
     overflow-y: scroll;
     display: flex;
     //align-items: center;
     justify-content: center;
     background-color: #FFF;
-    font-weight: 500;git 
+    font-weight: 500;
     font-family: 'GmarketSansMedium';
   }
 
@@ -37,7 +38,6 @@ export const GlobalStyle = createGlobalStyle`
     .App {
       width: 375px;
       height: 100vh;
-      margin-left: 60px;
       font-family: 'GmarketSansMedium';
       color: #FFF;
     }

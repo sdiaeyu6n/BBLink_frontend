@@ -54,22 +54,24 @@ const StoreDetail = () => {
               <Button
                 variant="warning"
                 onClick={handleCall}
-                style={{ width: "100px", fontSize: "22px" }}
+                style={{ width: "55px", fontSize: "15px" }}
               >
                 <b>전화</b>
               </Button>{" "}
               <Button
                 variant="warning"
                 onClick={handleHeart}
-                style={{ width: "100px", fontSize: "22px" }}
+                style={{ width: "55px", fontSize: "15px" }}
               >
                 <b>찜</b>
               </Button>
               {"  "}
               <Button
                 variant="success"
-                onClick={handleHeart}
-                style={{ width: 250, fontSize: 30, marginLeft: 15 }}
+                onClick={() => {
+                  navigate("/mybag");
+                }}
+                style={{ width: "120px", fontSize: "15px", marginLeft: "5px" }}
               >
                 <b>장바구니 보기</b>
               </Button>{" "}
