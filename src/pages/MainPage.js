@@ -39,7 +39,7 @@ font-weight: 700;
 <div className="MainPage">
 <center>
     <br/>
-    <label>서울특별시 중구 필동로</label>
+    <label>서울특별시 중구 필동로 ▼</label>
     <br/>
     <br/>
  <SearchInput/>
@@ -66,7 +66,7 @@ navigate('/CategoryPage')
  <br/>
  <br/>
  <StyledButton3 onClick={()=>{
-navigate('/CategoryPage')
+navigate('/DeliveryNow')
 }
 }>현재 배달현황 확인하기</StyledButton3>
 </center>
