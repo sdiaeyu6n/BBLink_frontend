@@ -27,11 +27,9 @@ const Payment = () => {
     <div
       className="Payment"
       style={{
-        marginTop: 20,
-        marginLeft: 30,
-        marginBottom: 20,
-        alignContent: "center",
-        whiteSpace: "pre-wrap",
+        margin: "20px",
+        marginLeft: "20px",
+        marginTop: "50px",
       }}
     >
       <h2>
@@ -57,7 +55,7 @@ const Payment = () => {
           name="address"
           value={state.address}
           onChange={handleChangeState}
-          style={{ width: 300 }}
+          style={{ width: "320px" }}
         />
       </div>
       <div>
@@ -68,7 +66,7 @@ const Payment = () => {
           name="contact"
           value={state.contact}
           onChange={handleChangeState}
-          style={{ width: 300 }}
+          style={{ width: "320px" }}
         />
       </div>
       <hr></hr>
@@ -79,7 +77,7 @@ const Payment = () => {
           name="ask"
           value={state.ask}
           onChange={handleChangeState}
-          style={{ width: 500, height: 100 }}
+          style={{ width: "320px", height: 100 }}
         />
       </div>
       <hr></hr>
@@ -106,7 +104,7 @@ const Payment = () => {
           onClick={() => {
             navigate("/payfin");
           }}
-          style={{ width: 300, fontSize: 25 }}
+          style={{ width: "320px", fontSize: 25 }}
         >
           <b>12,500원 결제하기</b>
         </Button>
