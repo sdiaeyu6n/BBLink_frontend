@@ -23,17 +23,17 @@ const StoreDetail = () => {
         <div className="StoreDetail">
           <header>
             <h3>
-              끝내주는 마라탕<br></br>
+              백남옥손만두-신당점<br></br>
             </h3>
           </header>
 
           <div className="StoreInfoImage" style={{ float: "left", margin: 10 }}>
             <img
               className="storeImg"
-              src="img/storelogo.png"
+              src="img/storelogo_bnosmd.png"
               width="150"
               height="150"
-              alt="끝내주는 마라탕의 로고"
+              alt="백남옥손만두 신당점의 로고"
               align-items="left"
             />
           </div>
@@ -43,11 +43,11 @@ const StoreDetail = () => {
             <AiFillStar />
             <AiFillStar />
             <AiFillStar />
-            {"     "}4.9 (59)
+            {"     "}4.7 (59)
             <br></br>
-            최소 주문 금액 <b>12,000원</b>
+            최소 주문 금액 <b>10,000원</b>
             <br></br>
-            배달 소요 시간 <b>52~62분</b>
+            배달 소요 시간 <b>18분</b>
             <div style={{ clear: "both" }}></div>
             <hr style={{ width: 500 }}></hr>
             <div>

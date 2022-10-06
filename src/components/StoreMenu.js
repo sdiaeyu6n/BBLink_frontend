@@ -26,19 +26,112 @@ const StoreMenu = () => {
               navigate("/menuoption");
             }}
             className="storeImg"
-            src="img/menu1.jpg"
+            src="img/menu1_모듬세트.png"
             width="200"
-            height="200"
-            alt="삼겹살 음식 이미지"
+            height="150"
+            alt="모듬세트 이미지"
           />
         </div>
 
         <div className="StoreMenuText" style={{ float: "left", margin: 10 }}>
           {" "}
-          <h4 style={{ fontSize: 25 }}>직화삼겹구이</h4>
+          <h4 style={{ fontSize: 25 }}>모듬세트</h4>
           {/* <b style={{ color: "red" }}>빨간색 글자입니다.</b> */}
-          <b style={{ fontSize: 20 }}>34,000원</b>
-          <p>몸에 좋고 맛도 좋은 숯불 직화 삼겹살 구이입니다.</p>
+          <b style={{ fontSize: 20 }}>11,000원</b>
+          <p>고기5＋김치5＋갈비6＋새우3 (1인분)</p>
+        </div>
+        <div style={{ clear: "both" }}></div>
+
+        <hr style={{ width: 700 }}></hr>
+        <div className="StoreInfoImage" style={{ float: "left", margin: 10 }}>
+          <img
+            onClick={() => {
+              navigate("/menuoption");
+            }}
+            className="storeImg"
+            src="img/menu2_김치만두.png"
+            width="200"
+            height="150"
+            alt="김치만두 이미지"
+          />
+        </div>
+
+        <div className="StoreMenuText" style={{ float: "left", margin: 10 }}>
+          {" "}
+          <h4 style={{ fontSize: 25 }}>김치만두</h4>
+          {/* <b style={{ color: "red" }}>빨간색 글자입니다.</b> */}
+          <b style={{ fontSize: 20 }}>5,500원</b>
+          <p>10개 (1인분)</p>
+        </div>
+
+        <div style={{ clear: "both" }}></div>
+
+        <hr style={{ width: 700 }}></hr>
+        <div className="StoreInfoImage" style={{ float: "left", margin: 10 }}>
+          <img
+            onClick={() => {
+              navigate("/menuoption");
+            }}
+            className="storeImg"
+            src="img/menu3_왕만두.png"
+            width="200"
+            height="150"
+            alt="왕만두 이미지"
+          />
+        </div>
+
+        <div className="StoreMenuText" style={{ float: "left", margin: 10 }}>
+          {" "}
+          <h4 style={{ fontSize: 25 }}>왕만두</h4>
+          {/* <b style={{ color: "red" }}>빨간색 글자입니다.</b> */}
+          <b style={{ fontSize: 20 }}>6,000원</b>
+          <p>고기만두, 김치만두 중 선택 가능 (5개 1인분)</p>
+        </div>
+
+        <div style={{ clear: "both" }}></div>
+
+        <hr style={{ width: 700 }}></hr>
+        <div className="StoreInfoImage" style={{ float: "left", margin: 10 }}>
+          <img
+            onClick={() => {
+              navigate("/menuoption");
+            }}
+            className="storeImg"
+            src="img/menu4_고기만두.png"
+            width="200"
+            height="150"
+            alt="고기만두 이미지"
+          />
+        </div>
+
+        <div className="StoreMenuText" style={{ float: "left", margin: 10 }}>
+          {" "}
+          <h4 style={{ fontSize: 25 }}>고기만두</h4>
+          {/* <b style={{ color: "red" }}>빨간색 글자입니다.</b> */}
+          <b style={{ fontSize: 20 }}>5,500원</b>
+          <p>10개 (1인분)</p>
+        </div>
+
+        <hr style={{ width: 700 }}></hr>
+        <div className="StoreInfoImage" style={{ float: "left", margin: 10 }}>
+          <img
+            onClick={() => {
+              navigate("/menuoption");
+            }}
+            className="storeImg"
+            src="img/menu5_새우만두.png"
+            width="200"
+            height="150"
+            alt="새우만두 이미지"
+          />
+        </div>
+
+        <div className="StoreMenuText" style={{ float: "left", margin: 10 }}>
+          {" "}
+          <h4 style={{ fontSize: 25 }}>새우만두</h4>
+          {/* <b style={{ color: "red" }}>빨간색 글자입니다.</b> */}
+          <b style={{ fontSize: 20 }}>5,500원</b>
+          <p>6개 (1인분)</p>
         </div>
       </div>
 
@@ -50,27 +143,208 @@ const StoreMenu = () => {
           padding: 20,
         }}
       >
-        <h3>사이드</h3>
+        <h3>메인 메뉴</h3>
         <hr style={{ width: 700 }}></hr>
         <div className="StoreInfoImage" style={{ float: "left", margin: 10 }}>
           <img
             className="storeImg"
-            src="img/menu2.png"
+            src="img/신메뉴1_얇은피 고기왕만두.png"
             width="200"
-            height="200"
-            alt="야채듬뿍 쫄면 음식 이미지"
+            height="150"
+            alt="얇은피 고기왕만두 이미지"
           />
         </div>
         <div className="StoreMenuText" style={{ float: "left", margin: 10 }}>
           {" "}
-          <h4 style={{ fontSize: 25 }}>야채듬뿍 쫄면</h4>
-          {/* <b style={color:"red"}>빨간색 글자입니다.</b> */}
-          <b style={{ fontSize: 20 }}>12,000원</b>
-          <p>신선한 야채가 듬뿍 들어간 쫄면입니다.</p>
+          <b style={{ color: "red" }}>신메뉴</b>
+          <h4 style={{ fontSize: 25 }}>얇은피 고기왕만두</h4>
+          <b style={{ fontSize: 20 }}>6,000원</b>
+          <p>얇은피에 속이 꽉찬 고기 왕만두 (5개)</p>
         </div>
+        <div style={{ clear: "both" }}></div>
+
+        <hr style={{ width: 700 }}></hr>
+        <div className="StoreInfoImage" style={{ float: "left", margin: 10 }}>
+          <img
+            className="storeImg"
+            src="img/신메뉴2_얇은피 김치왕만두.png"
+            width="200"
+            height="150"
+            alt="얇은피 김치왕만두 이미지"
+          />
+        </div>
+        <div className="StoreMenuText" style={{ float: "left", margin: 10 }}>
+          {" "}
+          <b style={{ color: "red" }}>신메뉴</b>
+          <h4 style={{ fontSize: 25 }}>얇은피 김치왕만두</h4>
+          <b style={{ fontSize: 20 }}>6,000원</b>
+          <p>얇은피에 속이 꽉찬 김치 왕만두 (5개)</p>
+        </div>
+
+        <hr style={{ width: 700 }}></hr>
+        <div className="StoreInfoImage" style={{ float: "left", margin: 10 }}>
+          <img
+            className="storeImg"
+            src="img/메인메뉴3_고기김치반반.png"
+            width="200"
+            height="150"
+            alt="고기김치반반 이미지"
+          />
+        </div>
+        <div className="StoreMenuText" style={{ float: "left", margin: 10 }}>
+          {" "}
+          {/* <b style={{ color: "red" }}>신메뉴</b> */}
+          <h4 style={{ fontSize: 25 }}>고기김치반반</h4>
+          <b style={{ fontSize: 20 }}>5,500원</b>
+          <p>고기 5개 + 김치 5개 (10개)</p>
+        </div>
+        <hr style={{ width: 700 }}></hr>
+        <div className="StoreInfoImage" style={{ float: "left", margin: 10 }}>
+          <img
+            onClick={() => {
+              navigate("/menuoption");
+            }}
+            className="storeImg"
+            src="img/menu4_고기만두.png"
+            width="200"
+            height="150"
+            alt="고기만두 이미지"
+          />
+        </div>
+
+        <div className="StoreMenuText" style={{ float: "left", margin: 10 }}>
+          {" "}
+          <h4 style={{ fontSize: 25 }}>고기만두</h4>
+          {/* <b style={{ color: "red" }}>빨간색 글자입니다.</b> */}
+          <b style={{ fontSize: 20 }}>5,500원</b>
+          <p>10개 (1인분)</p>
+        </div>
+
+        <hr style={{ width: 700 }}></hr>
+        <div className="StoreInfoImage" style={{ float: "left", margin: 10 }}>
+          <img
+            onClick={() => {
+              navigate("/menuoption");
+            }}
+            className="storeImg"
+            src="img/menu2_김치만두.png"
+            width="200"
+            height="150"
+            alt="김치만두 이미지"
+          />
+        </div>
+
+        <div className="StoreMenuText" style={{ float: "left", margin: 10 }}>
+          {" "}
+          <h4 style={{ fontSize: 25 }}>김치만두</h4>
+          {/* <b style={{ color: "red" }}>빨간색 글자입니다.</b> */}
+          <b style={{ fontSize: 20 }}>5,500원</b>
+          <p>10개 (1인분)</p>
+        </div>
+
+        <div style={{ clear: "both" }}></div>
+
+        <hr style={{ width: 700 }}></hr>
+        <div className="StoreInfoImage" style={{ float: "left", margin: 10 }}>
+          <img
+            onClick={() => {
+              navigate("/menuoption");
+            }}
+            className="storeImg"
+            src="img/menu5_새우만두.png"
+            width="200"
+            height="150"
+            alt="새우만두 이미지"
+          />
+        </div>
+
+        <div className="StoreMenuText" style={{ float: "left", margin: 10 }}>
+          {" "}
+          <h4 style={{ fontSize: 25 }}>새우만두</h4>
+          {/* <b style={{ color: "red" }}>빨간색 글자입니다.</b> */}
+          <b style={{ fontSize: 20 }}>5,500원</b>
+          <p>6개 (1인분)</p>
+        </div>
+        <div style={{ clear: "both" }}></div>
+
+        <hr style={{ width: 700 }}></hr>
+        <div className="StoreInfoImage" style={{ float: "left", margin: 10 }}>
+          <img
+            onClick={() => {
+              navigate("/menuoption");
+            }}
+            className="storeImg"
+            src="img/메인메뉴4_갈비만두.png"
+            width="200"
+            height="150"
+            alt="갈비만두 이미지"
+          />
+        </div>
+
+        <div className="StoreMenuText" style={{ float: "left", margin: 10 }}>
+          {" "}
+          <h4 style={{ fontSize: 25 }}>갈비만두</h4>
+          {/* <b style={{ color: "red" }}>빨간색 글자입니다.</b> */}
+          <b style={{ fontSize: 20 }}>5,500원</b>
+          <p>10개 (1인분)</p>
+        </div>
+        <div style={{ clear: "both" }}></div>
+        <hr style={{ width: 700 }}></hr>
+        <div className="StoreInfoImage" style={{ float: "left", margin: 10 }}>
+          <img
+            onClick={() => {
+              navigate("/menuoption");
+            }}
+            className="storeImg"
+            src="img/menu3_왕만두.png"
+            width="200"
+            height="150"
+            alt="왕만두 이미지"
+          />
+        </div>
+
+        <div className="StoreMenuText" style={{ float: "left", margin: 10 }}>
+          {" "}
+          <h4 style={{ fontSize: 25 }}>왕만두</h4>
+          {/* <b style={{ color: "red" }}>빨간색 글자입니다.</b> */}
+          <b style={{ fontSize: 20 }}>6,000원</b>
+          <p>고기만두, 김치만두 중 선택 가능 (5개 1인분)</p>
+        </div>
+
+        <div style={{ clear: "both" }}></div>
       </div>
       <div style={{ clear: "both" }}></div>
+      <div
+        style={{
+          margin: 20,
+          padding: 20,
+        }}
+      >
+        <h3>세트메뉴</h3>
+        <hr style={{ width: 700 }}></hr>
+        <div className="StoreInfoImage" style={{ float: "left", margin: 10 }}>
+          <img
+            onClick={() => {
+              navigate("/menuoption");
+            }}
+            className="storeImg"
+            src="img/menu1_모듬세트.png"
+            width="200"
+            height="150"
+            alt="모듬세트 이미지"
+          />
+        </div>
 
+        <div className="StoreMenuText" style={{ float: "left", margin: 10 }}>
+          {" "}
+          <h4 style={{ fontSize: 25 }}>모듬세트</h4>
+          {/* <b style={{ color: "red" }}>빨간색 글자입니다.</b> */}
+          <b style={{ fontSize: 20 }}>11,000원</b>
+          <p>고기5＋김치5＋갈비6＋새우3 (1인분)</p>
+        </div>
+        <div style={{ clear: "both" }}></div>
+      </div>
+      <div style={{ clear: "both" }}></div>
       <div
         style={{
           margin: 20,
@@ -82,19 +356,38 @@ const StoreMenu = () => {
         <div className="StoreInfoImage" style={{ float: "left", margin: 10 }}>
           <img
             className="storeImg"
-            src="img/menu3.png"
+            src="img/음료1_코카콜라.png"
             width="200"
-            height="200"
-            alt="오렌지주스 음료 이미지"
+            height="150"
+            alt="코카콜라 이미지"
           />
         </div>
         <div className="StoreMenuText" style={{ float: "left", margin: 10 }}>
           {" "}
-          <h4 style={{ fontSize: 25 }}>착즙 오렌지 주스</h4>
+          <h4 style={{ fontSize: 25 }}>코카콜라</h4>
           {/* <b style={color:"red"}>빨간색 글자입니다.</b> */}
-          <b style={{ fontSize: 20 }}>6,000원</b>
-          <p>오렌지를 직접 갈아 만든 건강한 오렌지 주스입니다.</p>
+          <b style={{ fontSize: 20 }}>2,000원</b>
+          {/* <p>오렌지를 직접 갈아 만든 건강한 오렌지 주스입니다.</p> */}
         </div>
+        <div style={{ clear: "both" }}></div>
+        <hr style={{ width: 700 }}></hr>
+        <div className="StoreInfoImage" style={{ float: "left", margin: 10 }}>
+          <img
+            className="storeImg"
+            src="img/음료2_칠성사이다.png"
+            width="200"
+            height="150"
+            alt="칠성사이다 이미지"
+          />
+        </div>
+        <div className="StoreMenuText" style={{ float: "left", margin: 10 }}>
+          {" "}
+          <h4 style={{ fontSize: 25 }}>칠성사이다</h4>
+          {/* <b style={color:"red"}>빨간색 글자입니다.</b> */}
+          <b style={{ fontSize: 20 }}>2,000원</b>
+          {/* <p>오렌지를 직접 갈아 만든 건강한 오렌지 주스입니다.</p> */}
+        </div>
+        <div style={{ clear: "both" }}></div>
       </div>
       <div style={{ clear: "both" }}></div>
     </>
